@@ -3285,7 +3285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 780527a01ae290245badfce1bbfbb1c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhichBar: Heath
+  WhichBar: Health
 --- !u!114 &1699225567
 MonoBehaviour:
   m_ObjectHideFlags: 0
