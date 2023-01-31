@@ -29,10 +29,10 @@ public class Health : MonoBehaviour
                 Damage(GameVars.DamageValue);
             }
 
-            // if (GameVars.EnemyInTheWorldCount > 0 && GameVars.Health != 0 && !GameVars.isShieldEnable)
-            // {
-            //     Damage(GameVars.EnemyInTheWorldCount);
-            // }
+            if (GameVars.EnemyInTheWorldCount > 0 && GameVars.Health != 0 && !GameVars.isShieldEnable)
+            {
+                Damage(GameVars.EnemyInTheWorldCount);
+            }
             if(GameVars.Hunger >= 20 && GameVars.Health < GameVars.MaxHealth)
             {
                 Heal();

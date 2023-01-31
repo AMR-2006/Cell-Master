@@ -22,6 +22,6 @@ public static class GameVars
     public static float FoodSpawnTime = 6f;
     public static float EnemySpawnTime = 5f;
     public static float EnemyMainHealth = 100f;
-    //public static int EnemyInTheWorldCount = 0;
+    public static int EnemyInTheWorldCount = 0;
     public static bool isShieldEnable = false;
 }

@@ -558,7 +558,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81e61016b3732a45810ed43b3c79283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EX: {fileID: 4861444852417206835, guid: 7f85b7ddb2e8e9e44bb6de57055dce38, type: 3}
+  EX: {fileID: 8741560288804626508, guid: f6d756c4fb48bd14f88290a3ae6284a0, type: 3}
+  Health: 0
   source: {fileID: 8891429106393218431, guid: f97db0b0c60d69240aad8ade45bdd39a, type: 3}
   clip: {fileID: 8300000, guid: 262aea71740cba9479e8ebe9ce720f54, type: 3}
 --- !u!95 &6407830394247364184
