@@ -27,4 +27,7 @@ public class FoodSpawner : MonoBehaviour
             Invoke("SpawnFood",GameVars.FoodSpawnTime);
         }
     }
+    
+    
+    
 }

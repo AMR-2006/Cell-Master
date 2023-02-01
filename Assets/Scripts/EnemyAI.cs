@@ -31,7 +31,15 @@ public class EnemyAI : MonoBehaviour
     private void setDistenation()
     {
         randomeLocation = new Vector2(Random.Range(-9f, 9f),Random.Range(-4f, 4f));
-        agent.SetDestination(randomeLocation);
+        GameObject food = GameObject.FindWithTag("Food");
+        if (food != null)
+        {
+            agent.SetDestination(food.transform.position);
+        }
+        else
+        {
+            agent.SetDestination(randomeLocation);
+        }
         Invoke("setDistenation",Random.Range(0f,10f));
     }
 }
