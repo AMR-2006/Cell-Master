@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] GameObject[] Enemy;
-    private Vector3[] EnemySpawnPoint = new Vector3[4]; 
-
+    private Vector3[] EnemySpawnPoint = new Vector3[4];
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +30,7 @@ public class EnemySpawner : MonoBehaviour
             Instantiate(Enemy[Random.Range(0,Enemy.Length)],EnemySpawnPoint[Random.Range(0,EnemySpawnPoint.Length)],Quaternion.identity);
             GameVars.EnemyInTheWorldCount += 1;
             Debug.Log(GameVars.EnemyInTheWorldCount);
-            Invoke("Spawn",GameVars.EnemySpawnTime);
+            Invoke("Spawn", GameVars.EnemySpawnTime);
         }
     }
 }

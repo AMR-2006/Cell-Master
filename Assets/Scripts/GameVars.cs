@@ -20,8 +20,12 @@ public static class GameVars
     public static int MoreFoodCost = 100;
     public static GameObject Food;
     public static float FoodSpawnTime = 6f;
-    public static float EnemySpawnTime = 5f;
+    public static float EnemySpawnTime = 10f;
     public static float EnemyMainHealth = 100f;
     public static int EnemyInTheWorldCount = 0;
     public static bool isShieldEnable = false;
+
+
+
+    public static string VirusAName; 
 }

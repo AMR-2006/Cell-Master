@@ -23,8 +23,8 @@ public class EnemyHealth : MonoBehaviour
         //spawnpos = new Vector3(this.transform.position.x,this.transform.position.y,-11.7f);
         //EX2 = Instantiate(EX,spawnpos,Quaternion.identity);
         
-        source.clip = clip;
-        source.Play();
+        Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
+        Inssource.Play();
         if(Health > 0)
         {
             Health -= GameVars.Damage_Per_Click;
