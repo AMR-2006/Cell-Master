@@ -157,6 +157,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.textcore": {
+      "version": "https://github.com/needle-mirror/com.unity.textcore.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3fe55370dc5758913f3a847bc59fc958f27a354d"
+    },
     "com.unity.textmeshpro": {
       "version": "3.0.6",
       "depth": 0,
@@ -186,6 +193,23 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.ui": {
+      "version": "https://github.com/needle-mirror/com.unity.ui.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.uielementsnative": "1.0.0",
+        "com.unity.textcore": "1.0.0-preview.3"
+      },
+      "hash": "510d7618e549150d73c2e053f25400386fe81c8a"
+    },
+    "com.unity.ui.builder": {
+      "version": "https://github.com/needle-mirror/com.unity.ui.builder.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "fc943161b345119feb1a8c00ec70fd4ff0305975"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
