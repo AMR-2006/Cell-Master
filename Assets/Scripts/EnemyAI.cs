@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+    [SerializeField] [Range(1,3)] private int Enemytype;
+    [SerializeField] [Range(1f, 10f)] private float maxThinkTime;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -31,15 +33,6 @@ public class EnemyAI : MonoBehaviour
     private void setDistenation()
     {
         randomeLocation = new Vector2(Random.Range(-9f, 9f),Random.Range(-4f, 4f));
-        GameObject food = GameObject.FindWithTag("Food");
-        if (food != null)
-        {
-            agent.SetDestination(food.transform.position);
-        }
-        else
-        {
-            agent.SetDestination(randomeLocation);
-        }
-        Invoke("setDistenation",Random.Range(0f,10f));
+        Invoke("setDistenation",Random.Range(0f,maxThinkTime));
     }
 }

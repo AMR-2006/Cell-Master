@@ -9,7 +9,7 @@ public static class GameVars
     public static int Damage_Upgrade_Cost = 100;
     public static int MaxHealth = 100;
     public static int MaxHealth_UpgradeCost = 200;
-    public static float HealthWaitTime = 2;
+    public static float HealthWaitTime = 2f;
     public static int DamageValue = 2;
     public static bool Pause_For_Change_Stage = false;
     public static int Health = 100;
