@@ -14,7 +14,7 @@ public class FoodCollector : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.gameObject.CompareTag("Player"))
+        /*if(other.gameObject.CompareTag("Player"))
         {
             if (GameVars.Hunger < 100)
             {
@@ -31,7 +31,7 @@ public class FoodCollector : MonoBehaviour
             Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
             Inssource.PlayOneShot(clip,10);
             Destroy(this.gameObject);
-        }
+        }*/
 
         if (other.gameObject.CompareTag("Enemy"))
         {

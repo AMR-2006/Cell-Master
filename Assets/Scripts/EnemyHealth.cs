@@ -36,7 +36,7 @@ public class EnemyHealth : MonoBehaviour
             Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
             Inssource.PlayOneShot(clip, 10);
             Destroy(this.gameObject);
-            GameVars.EnemyInTheWorldCount -= 1;
+            GameVars.EnemyHittingPlayer -= 1;
         }
         
     }
