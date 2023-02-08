@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9945f41-22ee-499b-8b53-f1e82d088afd" name="Changes" comment="" />
+    <list default="true" id="c9945f41-22ee-499b-8b53-f1e82d088afd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cell-Master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cell-Master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Cell Gang.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Cell Gang.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +44,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="F:\UnityEditor 2020\Unity 2020.3.26f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\lenovo\Desktop\Cell Clicker\Cell-Master&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -68,6 +86,7 @@
       <workItem from="1675239095208" duration="8321000" />
       <workItem from="1675501866319" duration="2715000" />
       <workItem from="1675789910622" duration="7658000" />
+      <workItem from="1675844726024" duration="1467000" />
     </task>
     <servers />
   </component>
