@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonController : MonoBehaviour
 {
+    public GameObject Shield;
     public void Eat()
     {
         if(GameVars.Hunger < 100)
@@ -91,7 +92,16 @@ public class ButtonController : MonoBehaviour
         if (!GameVars.isShieldEnable)
         {
             GameVars.Coin -= 100;
-            GameVars.isShieldEnable = true; 
+            GameVars.isShieldEnable = true;
+            Debug.Log("Shield");
+            Invoke("setShieldActivation",GameVars.shieldTime);
+            
         }
+    }
+
+    private void setShieldActivation()
+    {
+        Shield.SetActive(false);
+        GameVars.isShieldEnable = false;
     }
 }

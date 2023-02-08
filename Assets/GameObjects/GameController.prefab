@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 6756825671763111408}
   - component: {fileID: 6756825671763111410}
   - component: {fileID: 7013001351910438226}
-  - component: {fileID: 7727075569223599454}
-  - component: {fileID: 704912510}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -73,30 +71,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy:
   - {fileID: 7335835967583117653, guid: bd40b8b695995874fad2636afc1b904d, type: 3}
---- !u!114 &7727075569223599454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6756825671763111405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0db006e36201b5647918fa98d5f9e8ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextStage: {fileID: 0}
---- !u!114 &704912510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6756825671763111405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cae897077d5789149aac4d0f032edea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OldPlayer: {fileID: 0}
-  NewPlayer: {fileID: 5267761428091135494, guid: 72e25f553eace9448a1650421f3a12c7, type: 3}

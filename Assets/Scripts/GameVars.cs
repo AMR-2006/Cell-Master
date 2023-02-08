@@ -4,6 +4,8 @@ using UnityEngine;
 
 public static class GameVars
 {
+    public static float shieldTime = 10f;
+    
     public static int Damage_Upgrade_State = 0;
     public static float Damage_Per_Click = 10;
     public static int Damage_Upgrade_Cost = 100;
@@ -15,7 +17,7 @@ public static class GameVars
     public static int Health = 100;
     public static int Hunger = 100;
     public static int POOP = 0;
-    public static int Coin = 0;
+    public static int Coin = 10000000;
     public static int MoreFood_Upgrade_State = 0;
     public static int MoreFoodCost = 100;
     public static GameObject Food;
