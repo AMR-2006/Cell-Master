@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using DamageNumbersPro;
 public class EnemyHealth : MonoBehaviour
 {
     //public GameObject EX;
@@ -11,6 +11,8 @@ public class EnemyHealth : MonoBehaviour
     private AudioSource Inssource;
     public AudioClip clip;
     private Vector3 spawnpos;
+
+    public DamageNumber damageNumber;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class EnemyHealth : MonoBehaviour
         
         Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
         Inssource.Play();
+        DamageNumber insDamageNumber = damageNumber.Spawn(this.transform.position, GameVars.Damage_Per_Click);
         if(Health > 0)
         {
             Health -= GameVars.Damage_Per_Click;

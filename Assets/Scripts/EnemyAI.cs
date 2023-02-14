@@ -59,6 +59,9 @@ using UnityEngine;
     
     private void setDistenationtype3()
     {
-        agent.SetDestination(Cell.transform.position);
+        //agent.SetDestination(Cell.transform.position);
+        randomeLocation = new Vector2(Random.Range(-9f, 9f),Random.Range(-4f, 4f));
+        agent.SetDestination(randomeLocation);
+        Invoke("setDistenationtype1",Random.Range(0f,maxThinkTime));
     }
 }

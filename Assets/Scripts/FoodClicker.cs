@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using DamageNumbersPro;
 public class FoodClicker : MonoBehaviour
 {
     public ParticleSystem EX;
@@ -10,6 +10,8 @@ public class FoodClicker : MonoBehaviour
     private AudioSource Inssource;
     public AudioClip clip;
     private Vector3 spawnpos;
+
+    public DamageNumber Gold;
     private void OnMouseDown() 
     {
         if(GameVars.Hunger < 100)
@@ -21,6 +23,7 @@ public class FoodClicker : MonoBehaviour
                 GameVars.Health += 1;
             }
         }
+        DamageNumber insgold = Gold.Spawn(this.transform.position, 1);
         spawnpos = new Vector3(this.transform.position.x,this.transform.position.y,-11.7f);
         EX2 = Instantiate(EX,spawnpos,Quaternion.identity);   
         EX2.Play();

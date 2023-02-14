@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using DamageNumbersPro;
 
 public class FoodCollector : MonoBehaviour
 { 
@@ -10,6 +11,8 @@ public class FoodCollector : MonoBehaviour
     private AudioSource Inssource;
     public AudioClip clip;
     private Vector3 spawnpos;
+
+    //public DamageNumber Gold;
     
     
     private void OnTriggerEnter2D(Collider2D other) 
