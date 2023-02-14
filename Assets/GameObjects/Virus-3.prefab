@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemytype: 3
-  maxThinkTime: 0
+  maxThinkTime: 10
 --- !u!114 &-724217593761652857
 MonoBehaviour:
   m_ObjectHideFlags: 0
