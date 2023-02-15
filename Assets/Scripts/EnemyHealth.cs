@@ -11,7 +11,6 @@ public class EnemyHealth : MonoBehaviour
     private AudioSource Inssource;
     public AudioClip clip;
     private Vector3 spawnpos;
-
     public DamageNumber damageNumber;
     // Start is called before the first frame update
     void Start()
