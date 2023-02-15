@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1844883486413339895}
   - component: {fileID: 1844883486413339892}
   - component: {fileID: 1844883486413339893}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GoldNumber-food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  spamGroup: 100
+  spamGroup: 3
   enableCombination: 0
   combinationSettings:
     method: 0
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 1844883486793555626}
   - component: {fileID: 1844883486793555620}
   - component: {fileID: 1844883486793555621}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MeshA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 1844883486907092310}
   - component: {fileID: 1844883486907092304}
   - component: {fileID: 1844883486907092305}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 1844883487375320389}
   - component: {fileID: 1844883487375320391}
   - component: {fileID: 1844883487375320388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MeshB
   m_TagString: Untagged
   m_Icon: {fileID: 0}

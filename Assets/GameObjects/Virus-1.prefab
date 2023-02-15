@@ -103,6 +103,7 @@ MonoBehaviour:
   source: {fileID: 8891429106393218431, guid: f97db0b0c60d69240aad8ade45bdd39a, type: 3}
   clip: {fileID: 8300000, guid: 262aea71740cba9479e8ebe9ce720f54, type: 3}
   damageNumber: {fileID: 1844883486413339892, guid: df5decca2c976f64688411a19e20f1ae, type: 3}
+  cellDamage: {fileID: 0}
 --- !u!114 &1831006915749454058
 MonoBehaviour:
   m_ObjectHideFlags: 0

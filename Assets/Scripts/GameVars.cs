@@ -7,7 +7,7 @@ public static class GameVars
     public static float shieldTime = 10f;
     
     public static int Damage_Upgrade_State = 0;
-    public static float Damage_Per_Click = 10;
+    public static int Damage_Per_Click = 10;
     public static int Damage_Upgrade_Cost = 100;
     public static int MaxHealth = 100;
     public static int MaxHealth_UpgradeCost = 200;

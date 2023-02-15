@@ -3,25 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c9945f41-22ee-499b-8b53-f1e82d088afd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cell-Master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cell-Master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Cell.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameObjects/DamageNumber.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/DamageNumber.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/GoldNumber-food.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/GoldNumber-food.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameVars.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameVars.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +40,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="F:\UnityEditor 2020\Unity 2020.3.26f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\lenovo\Desktop\Cell Clicker\Cell-Master&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -92,6 +85,7 @@
       <workItem from="1675844726024" duration="5327000" />
       <workItem from="1676398021276" duration="3225000" />
       <workItem from="1676459334833" duration="400000" />
+      <workItem from="1676477215025" duration="3401000" />
     </task>
     <servers />
   </component>

@@ -105,6 +105,8 @@ MonoBehaviour:
   source: {fileID: 8891429106393218431, guid: f97db0b0c60d69240aad8ade45bdd39a, type: 3}
   clip: {fileID: 8300000, guid: 262aea71740cba9479e8ebe9ce720f54, type: 3}
   damageNumber: {fileID: 1844883486413339892, guid: df5decca2c976f64688411a19e20f1ae, type: 3}
+  cellDamage: {fileID: 1844883486413339892, guid: 701781216b76d1a4bb3219e7f12a9676, type: 3}
+  haveTimeToClick: 0
 --- !u!50 &9128953792469836053
 Rigidbody2D:
   serializedVersion: 4
@@ -140,6 +142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemytype: 3
   maxThinkTime: 10
+  waitForRedTime: 4
+  actionTime: 2
 --- !u!114 &-724217593761652857
 MonoBehaviour:
   m_ObjectHideFlags: 0

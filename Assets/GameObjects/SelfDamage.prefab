@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1844883486413339892}
   - component: {fileID: 1844883486413339893}
   m_Layer: 3
-  m_Name: DamageNumber
+  m_Name: SelfDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844883486413339898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.619, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1844883486907092310}
@@ -91,8 +91,8 @@ MonoBehaviour:
     - B
     suffixDigits: 030000000300000003000000
     maxDigits: 4
-  enableLeftText: 0
-  leftText: 
+  enableLeftText: 1
+  leftText: '-'
   leftTextSettings:
     bold: 0
     italic: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  spamGroup: 1
+  spamGroup: 2
   enableCombination: 1
   combinationSettings:
     method: 0
@@ -347,8 +347,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    moveToAbsorber: 0
-    teleportToAbsorber: 1
+    moveToAbsorber: 1
+    teleportToAbsorber: 0
     absorberScaleFactor: 1.5
     absorberScaleFade: 15
     instantGain: 1
@@ -481,7 +481,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5894866814813299862, guid: 4deac353ca1fcbb4c88d2916df7bde00, type: 2}
+  - {fileID: -8637183786855169142, guid: 138bc14d0d67104469245bad10338323, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -567,7 +567,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5894866814813299862, guid: 4deac353ca1fcbb4c88d2916df7bde00, type: 2}
+  - {fileID: -8637183786855169142, guid: 138bc14d0d67104469245bad10338323, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -609,10 +609,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: -1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4deac353ca1fcbb4c88d2916df7bde00, type: 2}
-  m_sharedMaterial: {fileID: 5894866814813299862, guid: 4deac353ca1fcbb4c88d2916df7bde00, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 138bc14d0d67104469245bad10338323, type: 2}
+  m_sharedMaterial: {fileID: -8637183786855169142, guid: 138bc14d0d67104469245bad10338323, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -732,7 +732,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5894866814813299862, guid: 4deac353ca1fcbb4c88d2916df7bde00, type: 2}
+  - {fileID: -8637183786855169142, guid: 138bc14d0d67104469245bad10338323, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
