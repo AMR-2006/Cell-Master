@@ -1,5 +1,5 @@
  using System.Collections;
-using System.Collections.Generic;
+ using System.Collections.Generic;
  using EPOOutline;
  using UnityEngine;
  using UnityEngine.SceneManagement;
@@ -51,7 +51,7 @@ using System.Collections.Generic;
     }
     private void setDistenationtype1()
     {
-        randomeLocation = new Vector2(Random.Range(-9f, 9f),Random.Range(-4f, 4f));
+        randomeLocation = new Vector2(Random.Range(-8f, 8f),Random.Range(-4f, 4f));
         agent.SetDestination(randomeLocation);
         Invoke("setDistenationtype1",Random.Range(0f,maxThinkTime));
     }
@@ -59,9 +59,9 @@ using System.Collections.Generic;
     private void setDistenationtype2()
     {
         GameObject target = null;
-        target = GameObject.FindWithTag("Food");
-        if (target != null)
+        if (GameObject.FindWithTag("Food"))
         {
+            target = GameObject.FindWithTag("Food");
             agent.SetDestination(target.transform.position);
         }
         Invoke("setDistenationtype2",maxThinkTime);

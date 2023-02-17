@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5590952079899870111}
   - component: {fileID: 6142247655135570049}
   - component: {fileID: 1244972814749942127}
-  - component: {fileID: -9174141108199465032}
   m_Layer: 0
   m_Name: Glucose
   m_TagString: Food
@@ -200,18 +199,3 @@ MonoBehaviour:
   source: {fileID: 8891429106393218431, guid: f97db0b0c60d69240aad8ade45bdd39a, type: 3}
   clip: {fileID: 8300000, guid: 17b6c4024a0530548a7dbf9ac21d3586, type: 3}
   Gold: {fileID: 1844883486413339892, guid: 8e9b31aa0d35d614f81b4b6e60979bba, type: 3}
---- !u!114 &-9174141108199465032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6106292298327290548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78f7c5c59a310184e8b87f0189357c52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EX: {fileID: 4861444852417206835, guid: 7e0840c78b4f300409812e937242b558, type: 3}
-  source: {fileID: 8891429106393218431, guid: f97db0b0c60d69240aad8ade45bdd39a, type: 3}
-  clip: {fileID: 8300000, guid: 17b6c4024a0530548a7dbf9ac21d3586, type: 3}

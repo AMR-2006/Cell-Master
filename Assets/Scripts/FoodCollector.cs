@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using DamageNumbersPro;
-
+using DamageNumbersPro;
 public class FoodCollector : MonoBehaviour
-{ 
+{
     public ParticleSystem EX;
     private ParticleSystem EX2;
     public AudioSource source;
@@ -12,12 +11,39 @@ public class FoodCollector : MonoBehaviour
     public AudioClip clip;
     private Vector3 spawnpos;
 
-    //public DamageNumber Gold;
-    
-    
-    private void OnTriggerEnter2D(Collider2D other) 
+    public DamageNumber Gold;
+    private void OnMouseDown() 
     {
-        /*if(other.gameObject.CompareTag("Player"))
+        if(GameVars.Hunger < 100)
+        {
+            GameVars.Hunger += 1;
+            GameVars.Coin += 1;
+            if (GameVars.Health >= 80 && GameVars.Health < 100)
+            {
+                GameVars.Health += 1;
+            }
+        }
+        DamageNumber insgold = Gold.Spawn(this.transform.position, 1);
+        spawnpos = new Vector3(this.transform.position.x,this.transform.position.y,-11.7f);
+        EX2 = Instantiate(EX,spawnpos,Quaternion.identity);   
+        EX2.Play();
+        Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
+        Inssource.PlayOneShot(clip,10);
+        Destroy(this.gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            other.GetComponent<EnemyHealth>().Health += 10;
+            spawnpos = new Vector3(this.transform.position.x, this.transform.position.y, -11.7f);
+            EX2 = Instantiate(EX, spawnpos, Quaternion.identity);
+            EX2.Play();
+            Inssource = Instantiate(source, new Vector3(0, 0, -1f), Quaternion.identity);
+            Inssource.PlayOneShot(clip, 10);
+            Destroy(this.gameObject);
+        }
+        if (other.gameObject.CompareTag("WhiteCell"))
         {
             if (GameVars.Hunger < 100)
             {
@@ -28,22 +54,12 @@ public class FoodCollector : MonoBehaviour
                     GameVars.Health += 1;
                 }
             }
-            spawnpos = new Vector3(this.transform.position.x,this.transform.position.y,-11.7f);
-            EX2 = Instantiate(EX,spawnpos,Quaternion.identity);   
+            DamageNumber insgold = Gold.Spawn(this.transform.position, 1);
+            spawnpos = new Vector3(this.transform.position.x, this.transform.position.y, -11.7f);
+            EX2 = Instantiate(EX, spawnpos, Quaternion.identity);
             EX2.Play();
-            Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
-            Inssource.PlayOneShot(clip,10);
-            Destroy(this.gameObject);
-        }*/
-
-        if (other.gameObject.CompareTag("Enemy"))
-        {
-            other.GetComponent<EnemyHealth>().Health += 10;
-            spawnpos = new Vector3(this.transform.position.x,this.transform.position.y,-11.7f);
-            EX2 = Instantiate(EX,spawnpos,Quaternion.identity);   
-            EX2.Play();
-            Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
-            Inssource.PlayOneShot(clip,10);
+            Inssource = Instantiate(source, new Vector3(0, 0, -1f), Quaternion.identity);
+            Inssource.PlayOneShot(clip, 10);
             Destroy(this.gameObject);
         }
     }

@@ -29,8 +29,7 @@ public class EnemyHealth : MonoBehaviour
 
         if (!haveTimeToClick)
         {
-            Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
-            Inssource.Play();
+            playaudio();
             DamageNumber insDamageNumber = damageNumber.Spawn(new Vector3(this.transform.position.x,this.transform.position.y+0.5f,this.transform.position.z), GameVars.Damage_Per_Click);
             if(Health > 0)
             {
@@ -40,16 +39,14 @@ public class EnemyHealth : MonoBehaviour
             if(Health <= 0)
             {
                 GameVars.Coin += 10;
-                Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
-                Inssource.PlayOneShot(clip, 10);
+                playaudio();
                 Destroy(this.gameObject);
                 GameVars.EnemyHittingPlayer -= 1;
             }
         }
         else
         {
-            Inssource = Instantiate(source,new Vector3(0,0,-1f),Quaternion.identity);
-            Inssource.Play();
+            playaudio();
             DamageNumber insDamageNumber = cellDamage.Spawn(new Vector3(this.transform.position.x,this.transform.position.y+0.5f,this.transform.position.z), GameVars.Damage_Per_Click);
             if(GameVars.Health > 0)
             {
@@ -57,6 +54,11 @@ public class EnemyHealth : MonoBehaviour
             }
         }
         
+    }
+    public void playaudio()
+    {
+        Inssource = Instantiate(source, new Vector3(0, 0, -1f), Quaternion.identity);
+        Inssource.Play();
     }
 
 }

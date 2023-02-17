@@ -104,6 +104,7 @@ MonoBehaviour:
   clip: {fileID: 8300000, guid: 262aea71740cba9479e8ebe9ce720f54, type: 3}
   damageNumber: {fileID: 1844883486413339892, guid: df5decca2c976f64688411a19e20f1ae, type: 3}
   cellDamage: {fileID: 0}
+  haveTimeToClick: 0
 --- !u!114 &1831006915749454058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,6 +140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemytype: 1
   maxThinkTime: 10
+  waitForRedTime: 0
+  actionTime: 0
 --- !u!50 &-1790330495697108882
 Rigidbody2D:
   serializedVersion: 4
@@ -173,6 +176,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09, y: -0.1}
+  m_Offset: {x: -0.02, y: 0}
   serializedVersion: 2
   m_Radius: 1.9923233
