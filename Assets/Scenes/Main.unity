@@ -1265,6 +1265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelectedObject: {fileID: 4957159516091185965, guid: 938c054bde9829b46b48fc422065621e, type: 3}
   WhiteCell: {fileID: 4957159516091185965, guid: ae243b146a6a3764da7751db9a90dd0a, type: 3}
+  Text: {fileID: 1369146919}
 --- !u!1 &819786084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2938,7 +2939,6 @@ GameObject:
   - component: {fileID: 1567609955}
   - component: {fileID: 1567609958}
   - component: {fileID: 1567609957}
-  - component: {fileID: 1567609956}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2965,19 +2965,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1567609956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567609954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3217aab590795ef45a1cb2d7d92096ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textname: Heal
 --- !u!114 &1567609957
 MonoBehaviour:
   m_ObjectHideFlags: 0
