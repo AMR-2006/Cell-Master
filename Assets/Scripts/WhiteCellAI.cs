@@ -9,8 +9,6 @@ public class WhiteCellAI : MonoBehaviour
     public int number_of_targets;
 
     private int targetleft;
-    private AudioSource source;
-    private AudioSource Inssource;
 
 
 
@@ -18,10 +16,6 @@ public class WhiteCellAI : MonoBehaviour
     {
         if(collision.gameObject.tag == "Enemy")
         {
-            if(source == null)
-            {
-                source = collision.gameObject.GetComponent<EnemyHealth>().source;
-            }
             collision.gameObject.GetComponent<EnemyHealth>().playaudio();
             Destroy(collision.gameObject);
             GameVars.EnemyHittingPlayer--;
@@ -60,13 +54,6 @@ public class WhiteCellAI : MonoBehaviour
         if(targetleft == 0)
         {
             Destroy(this.gameObject);
-            playaudio();
         }
-    }
-
-    private void playaudio()
-    {
-        Inssource = Instantiate(source, new Vector3(0, 0, -1f), Quaternion.identity);
-        Inssource.Play();
     }
 }
