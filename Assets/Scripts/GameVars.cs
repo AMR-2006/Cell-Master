@@ -14,7 +14,7 @@ public static class GameVars
     public static float HealthWaitTime = 2f;
     public static int DamageValue = 2;
     public static bool Pause_For_Change_Stage = false;
-    public static int Health = 100;
+    public static int Health = 1;
     public static int Hunger = 100;
     public static int POOP = 0;
     public static int Coin = 200;
