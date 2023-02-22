@@ -101,6 +101,18 @@ public class ButtonController : MonoBehaviour
         }
     }
 
+    public void Upgrage_WhiteCell_Speed()
+    {
+        GameVars.whiteCellSpeed *= 2;
+        GameVars.whiteCellCost += 50;
+    }
+    
+    public void Upgrage_WhiteCell_Targets()
+    {
+        GameVars.numberOfTargets += 1;
+        GameVars.whiteCellCost += 50;
+    }
+    
     private void setShieldActivation()
     {
         Shield.SetActive(false);

@@ -33,6 +33,14 @@ public class ProgressNumberShower : MonoBehaviour
             text.text = "Heal " + GameVars.MaxHealth.ToString() + "$";
         if (textname == "Damage_Upgrade")
             text.text = "Damage" + "\n" + GameVars.Damage_Upgrade_Cost.ToString() + "$";
+        if (textname == "SpeedUP")
+            text.text = GameVars.whiteCellSpeed.ToString();
+        if (textname == "Targets")
+            text.text = GameVars.numberOfTargets.ToString();
+        if (textname == "Overall")
+            text.text = GameVars.overallPower.ToString();
+        if (textname == "WhiteCellCost")
+            text.text = "White Cell " + GameVars.whiteCellCost.ToString() + "$";
 
 
     }
