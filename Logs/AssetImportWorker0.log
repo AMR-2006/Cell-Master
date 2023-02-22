@@ -555,3 +555,135 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4942.850446 seconds.
+  path: Assets/Sprite Shaders Ultimate
+  artifactKey: Guid(9f44d80d080e14eb8a2234eab0f32a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Shaders Ultimate using Guid(9f44d80d080e14eb8a2234eab0f32a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4702c2a5ea941bb6dda68dd6087a92c') in 0.035654 seconds 
+  Import took 0.078075 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.320150 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+- Completed reload, in  3.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3693ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (3341ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (612ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (2364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (1943ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4216 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4771.
+Total: 7.899000 ms (FindLiveObjects: 0.462700 ms CreateObjectMapping: 0.127900 ms MarkObjects: 6.508200 ms  DeleteObjects: 0.798100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 331.397188 seconds.
+  path: Assets/Sprite Shaders Ultimate/Scripts
+  artifactKey: Guid(f19ca1b5af457fa4d8a00de4cdfb391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Shaders Ultimate/Scripts using Guid(f19ca1b5af457fa4d8a00de4cdfb391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2423addc1026d1830747c9dd3231c599') in 0.037788 seconds 
+  Import took 0.086035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.555246 seconds.
+  path: Assets/Sprite Shaders Ultimate/Scripts/Interactive
+  artifactKey: Guid(6eaba17c383bc5843ad896f06371806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Shaders Ultimate/Scripts/Interactive using Guid(6eaba17c383bc5843ad896f06371806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce5f8345ece7881153a6a690b658106') in 0.007179 seconds 
+  Import took 0.045562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.217472 seconds.
+  path: Assets/Sprite Shaders Ultimate/Scripts/Interactive/InteractiveSquish.cs
+  artifactKey: Guid(c91f3b9b29b6c2a418ce478d0a0cdf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Shaders Ultimate/Scripts/Interactive/InteractiveSquish.cs using Guid(c91f3b9b29b6c2a418ce478d0a0cdf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5aacf91c8ddf2d4a13e67823f456722') in 0.007075 seconds 
+  Import took 0.062886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.445477 seconds.
+  path: Assets/Sprite Shaders Ultimate/Scripts/Interactive/Editor
+  artifactKey: Guid(a7dc9415a367ecb4d81082ed4477e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Shaders Ultimate/Scripts/Interactive/Editor using Guid(a7dc9415a367ecb4d81082ed4477e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b26c77625b0a658096d870692d14061') in 0.007437 seconds 
+  Import took 0.078880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.336531 seconds.
+  path: Assets/Sprite Shaders Ultimate/ASE
+  artifactKey: Guid(098ea2343dca81e4d8bc7c0aeedd0916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Shaders Ultimate/ASE using Guid(098ea2343dca81e4d8bc7c0aeedd0916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ffa317ccfad482ea2e9a497d2d68a6') in 0.007137 seconds 
+  Import took 0.046907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.542645 seconds.
+  path: Assets/PSD/You died.psd
+  artifactKey: Guid(b0189be0b5febae498fefbc759171ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSD/You died.psd using Guid(b0189be0b5febae498fefbc759171ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5368bed2293c2bd87480ae6f151421') in 0.793821 seconds 
+  Import took 0.833250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.972387 seconds.
+  path: Assets/PSD/WhiteCell.psd
+  artifactKey: Guid(df8365b0368647a4fb5c8ac9b63f398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PSD/WhiteCell.psd using Guid(df8365b0368647a4fb5c8ac9b63f398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b398ccad1a77a367af6d61f21c24ce') in 0.060506 seconds 
+  Import took 0.103461 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

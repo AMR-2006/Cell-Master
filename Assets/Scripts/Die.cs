@@ -11,7 +11,7 @@ public class Die : MonoBehaviour
     {
         if (GameVars.Health <= 0)
         {
-            youdied.SetActive(true);            
+            youdied.SetActive(true);
             Time.timeScale = 0f;
             source.enabled = true;
             GameVars.Health = 0;
