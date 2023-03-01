@@ -6,9 +6,7 @@ using static UnityEngine.GraphicsBuffer;
 public class WhiteCellAI : MonoBehaviour
 {
     private NavMeshAgent2D agent;
-    public int number_of_targets;
-
-    private int targetleft;
+    private int number_of_targets;
 
 
 
@@ -20,7 +18,7 @@ public class WhiteCellAI : MonoBehaviour
             Destroy(collision.gameObject);
             GameVars.EnemyHittingPlayer--;
             GameVars.Coin += 10;
-            targetleft--;
+            number_of_targets--;
         }
     }
 
@@ -29,13 +27,13 @@ public class WhiteCellAI : MonoBehaviour
     void Start()
     {
         agent = this.gameObject.GetComponent<NavMeshAgent2D>();
-        targetleft = number_of_targets;
+        number_of_targets = GameVars.numberOfTargets;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(targetleft > 0)
+        if(number_of_targets > 0)
         {
             if(GameObject.FindWithTag("Enemy"))
             {
@@ -51,7 +49,7 @@ public class WhiteCellAI : MonoBehaviour
                 }
             }
         }
-        if(targetleft == 0)
+        if(number_of_targets == 0)
         {
             Destroy(this.gameObject);
         }

@@ -17,6 +17,11 @@ public class ProgressNumberShower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        GameVars.overallPower = GameVars.whiteCellSpeed * GameVars.numberOfTargets;
+
+
+
         if(textname == "Health")
             text.text = GameVars.Health.ToString();
         if(textname == "Saturation")

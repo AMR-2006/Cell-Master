@@ -1,1779 +1,763 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.18362) 64bit Professional' Language: 'en' Physical Memory: 8025 MB
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.2604; Version 2009; 64bit' Language: 'en' Physical Memory: 8072 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
-COMMAND LINE ARGUMENTS:
-F:\UnityEditor 2020\Unity 2020.3.26f1\Editor\Unity.exe
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/lenovo/Desktop/Cell Clicker/Cell-Master
+C:/Users/Arshia/Desktop/Amirsina Rastegar/Cell-Master
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55077
-Successfully changed project path to: C:/Users/lenovo/Desktop/Cell Clicker/Cell-Master
-C:/Users/lenovo/Desktop/Cell Clicker/Cell-Master
+59532
+Successfully changed project path to: C:/Users/Arshia/Desktop/Amirsina Rastegar/Cell-Master
+C:/Users/Arshia/Desktop/Amirsina Rastegar/Cell-Master
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.26f1 (7298b473bc1a)
-[Subsystems] Discovering subsystems at path F:/UnityEditor 2020/Unity 2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/lenovo/Desktop/Cell Clicker/Cell-Master/Assets
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Arshia/Desktop/Amirsina Rastegar/Cell-Master/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
     Vendor:   
-    VRAM:     2010 MB
-    Driver:   26.21.14.4137
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
 Initialize mono
-Mono path[0] = 'F:/UnityEditor 2020/Unity 2020.3.26f1/Editor/Data/Managed'
-Mono path[1] = 'F:/UnityEditor 2020/Unity 2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'F:/UnityEditor 2020/Unity 2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Mono path[0] = 'C:/Program Files/Unity/2020/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: F:/UnityEditor 2020/Unity 2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000662 seconds.
+Register platform support module: C:/Program Files/Unity/2020/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002411 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.505 seconds
-Domain Reload Profiling:
-	ReloadAssembly (505ms)
-		BeginReloadAssembly (38ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (415ms)
-			LoadAssemblies (36ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (195ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
+- Completed reload, in  2.032 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005278 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Registered in 0.142576 seconds.
 Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1034ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (884ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (382ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+- Completed reload, in  0.862 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.72 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4277 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 183.9 MB.
-System memory in use after: 184.1 MB.
+Unloading 1601 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.7 MB.
 
-Unloading 126 unused Assets to reduce memory usage. Loaded Objects now: 4629.
-Total: 4.000500 ms (FindLiveObjects: 0.294200 ms CreateObjectMapping: 0.164500 ms MarkObjects: 3.071800 ms  DeleteObjects: 0.469400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/3.png
-  artifactKey: Guid(c675899e3780b9f45a9105c6b1c131a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/3.png using Guid(c675899e3780b9f45a9105c6b1c131a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa06570bbc4fc5c27ae4851cc8b12025') in 0.411963 seconds 
-  Import took 0.434787 seconds .
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 1.917000 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.575500 ms  DeleteObjects: 0.066700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/500.png
-  artifactKey: Guid(50b81c09f3fbf174fbc902366aabc917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/500.png using Guid(50b81c09f3fbf174fbc902366aabc917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38412fafed2ac4564a2f6495ec8e5919') in 0.029527 seconds 
-  Import took 0.056144 seconds .
+  path: Assets/Scenes/Main_Menu.unity
+  artifactKey: Guid(2a30ce6809094084291cf7a77160aa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Menu.unity using Guid(2a30ce6809094084291cf7a77160aa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d747da46e33f3bff60727b9d0757070') in 0.018940 seconds
+  Import took 0.022345 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Good.png
-  artifactKey: Guid(6d4eaae8c34f8324889d96cc2054896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Good.png using Guid(6d4eaae8c34f8324889d96cc2054896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec2288a631788b47a76c009298a2738') in 0.027003 seconds 
-  Import took 0.037197 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1f69d940671b0967ff32e6b1ccd0e7') in 0.009134 seconds
+  Import took 0.012660 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Radial Shine White.png
-  artifactKey: Guid(fc92dc49be713e141a07cc4ec6ef58d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Radial Shine White.png using Guid(fc92dc49be713e141a07cc4ec6ef58d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32946a19d16d422839305bfe6fd0f30d') in 0.017006 seconds 
-  Import took 0.023401 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9b5dd8caf6d9218469d4884b8b1b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9b5dd8caf6d9218469d4884b8b1b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c98fbacb92ff807504e05d1045af06') in 0.008218 seconds
+  Import took 0.014038 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Progress Bar In Game 2.png
-  artifactKey: Guid(db5cbda2099ae334d9c848cc1f250b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Progress Bar In Game 2.png using Guid(db5cbda2099ae334d9c848cc1f250b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045367008b81cefc1de87ac4baf4bdf8') in 0.012375 seconds 
-  Import took 0.048757 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(a1e4d1c3294a3e349b11ffefc778f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(a1e4d1c3294a3e349b11ffefc778f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d35c319ccced1254eb3101b25b8ce21') in 0.007390 seconds
+  Import took 0.010989 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/10.png
-  artifactKey: Guid(c19ccab772ebac34f921875c28d7678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/10.png using Guid(c19ccab772ebac34f921875c28d7678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63907487c4c80269295a6616fad950f9') in 0.063637 seconds 
-  Import took 0.100271 seconds .
+  Time since last request: 22.916591 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(d87041702d366a746925a07de7e23262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(d87041702d366a746925a07de7e23262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60e657550bcefa8662e6aa2b7cf94bb') in 0.009125 seconds
+  Import took 0.012845 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 1.891600 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.061600 ms MarkObjects: 1.625300 ms  DeleteObjects: 0.024000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 2.491100 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.020700 ms  DeleteObjects: 0.027200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2056.
+Total: 1.880600 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.612300 ms  DeleteObjects: 0.032400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Purple.png
-  artifactKey: Guid(4fa7a5bd7885e004e84b2e2980dca235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Purple.png using Guid(4fa7a5bd7885e004e84b2e2980dca235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef90780b83a4c1606b487b67e887ccb1') in 0.049027 seconds 
-  Import took 0.092998 seconds .
+  Time since last request: 578.590052 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(3a9e4628fbeecb34dbdf94a50db8256b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(3a9e4628fbeecb34dbdf94a50db8256b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63950cf93b47fe609e93497a89e96064') in 0.013168 seconds
+  Import took 0.015853 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Barre de progression 2.png
-  artifactKey: Guid(e3138a12a89af3c4e836b1b9b6d78ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Barre de progression 2.png using Guid(e3138a12a89af3c4e836b1b9b6d78ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164b27d0fe193c7c8da80907aea7a481') in 0.017238 seconds 
-  Import took 0.038259 seconds .
+  Time since last request: 2.145098 seconds.
+  path: Assets/Scripts/StateShow.cs
+  artifactKey: Guid(f643233669dd2254597b417f9799e76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StateShow.cs using Guid(f643233669dd2254597b417f9799e76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70ca03896c73690b2231359e33f3590') in 0.046759 seconds
+  Import took 0.049363 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline Bar Progress.png
-  artifactKey: Guid(de84200f09eb9584bb767c07afd135c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline Bar Progress.png using Guid(de84200f09eb9584bb767c07afd135c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee1261408263280eb9649dc0ca3ccfd') in 0.017268 seconds 
-  Import took 0.035996 seconds .
+  Time since last request: 0.544390 seconds.
+  path: Assets/Scripts/SpawnWhiteCell.cs
+  artifactKey: Guid(92464c51d7913c14f8486b6c3841ebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnWhiteCell.cs using Guid(92464c51d7913c14f8486b6c3841ebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d6a4f10efcaaa6aa38a99ceb8553bb') in 0.007849 seconds
+  Import took 0.010978 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/1.png
-  artifactKey: Guid(7cc3590aae4bfd74fa199fece6e0c26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/1.png using Guid(7cc3590aae4bfd74fa199fece6e0c26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288e98b25d7190980a726d6c5c54b331') in 0.047622 seconds 
-  Import took 0.065910 seconds .
+  Time since last request: 0.000751 seconds.
+  path: Assets/Scripts/SpawnWhiteCell.cs
+  artifactKey: Guid(92464c51d7913c14f8486b6c3841ebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnWhiteCell.cs using Guid(92464c51d7913c14f8486b6c3841ebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d6a4f10efcaaa6aa38a99ceb8553bb') in 0.005478 seconds
+  Import took 0.009418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/200.png
-  artifactKey: Guid(d1a82258925cdae438906f35a062c7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/200.png using Guid(d1a82258925cdae438906f35a062c7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284898bc48ac1aeee035cd80161cd39b') in 0.021625 seconds 
-  Import took 0.030162 seconds .
+  Time since last request: 0.892988 seconds.
+  path: Assets/Scripts/UpgradeList_AnimationController.cs
+  artifactKey: Guid(8b248ace075916b4c93edc49403a3649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UpgradeList_AnimationController.cs using Guid(8b248ace075916b4c93edc49403a3649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0d75c22295638cf65c20f46e4cc35d') in 0.009196 seconds
+  Import took 0.012458 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Press to.png
-  artifactKey: Guid(f66169c1a0cbade4ea4c12ba8c87ccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Press to.png using Guid(f66169c1a0cbade4ea4c12ba8c87ccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55387d98c0d0f66f9ee8dde4d4ef8b79') in 0.019871 seconds 
-  Import took 0.030221 seconds .
+  Time since last request: 0.545118 seconds.
+  path: Assets/Scripts/WhiteCellAI.cs
+  artifactKey: Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WhiteCellAI.cs using Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc08e796714ab932fc9cc2f973bb8f3') in 0.012725 seconds
+  Import took 0.019231 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar green.png
-  artifactKey: Guid(7dc690b2a03716e45be2487abae9f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar green.png using Guid(7dc690b2a03716e45be2487abae9f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b6dde66ca169be47df1e2107dea37b') in 0.018495 seconds 
-  Import took 0.039988 seconds .
+  Time since last request: 0.001749 seconds.
+  path: Assets/Scripts/WhiteCellAI.cs
+  artifactKey: Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WhiteCellAI.cs using Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc08e796714ab932fc9cc2f973bb8f3') in 0.009813 seconds
+  Import took 0.015414 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Amazing.png
-  artifactKey: Guid(f4ad22a0d6a243f4fabd56b913b3a7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Amazing.png using Guid(f4ad22a0d6a243f4fabd56b913b3a7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b807fb0c71b1b3adfaa11752d880bcb6') in 0.018209 seconds 
-  Import took 0.024966 seconds .
+  Time since last request: 0.979544 seconds.
+  path: Assets/Scripts/WhiteCellStatusSet.cs
+  artifactKey: Guid(6142423852a6aad4783ed8c381560f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WhiteCellStatusSet.cs using Guid(6142423852a6aad4783ed8c381560f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da50e72fda398d817760c12b1269654') in 0.009031 seconds
+  Import took 0.013270 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Progress Bar In Game 1.png
-  artifactKey: Guid(278dc0cf2bfc2d44d90e3ea8d2f6b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Progress Bar In Game 1.png using Guid(278dc0cf2bfc2d44d90e3ea8d2f6b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1e707c9b9081c9018a330882cd6e15') in 0.015022 seconds 
-  Import took 0.038890 seconds .
+  Time since last request: 0.001143 seconds.
+  path: Assets/Scripts/WhiteCellStatusSet.cs
+  artifactKey: Guid(6142423852a6aad4783ed8c381560f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WhiteCellStatusSet.cs using Guid(6142423852a6aad4783ed8c381560f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da50e72fda398d817760c12b1269654') in 0.003869 seconds
+  Import took 0.008041 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Purple Elipse.png
-  artifactKey: Guid(df2a4f0771486da47841079811355fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Purple Elipse.png using Guid(df2a4f0771486da47841079811355fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1d55ae56dba7582f05b99daf6c0845') in 0.016373 seconds 
-  Import took 0.039453 seconds .
+  Time since last request: 3.004078 seconds.
+  path: Assets/Scripts/FoodSpawnArea.cs
+  artifactKey: Guid(01c274252df110d40901c1c4a28441d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FoodSpawnArea.cs using Guid(01c274252df110d40901c1c4a28441d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd90ade60b2fc4701ed4157b9d85b91d') in 0.007755 seconds
+  Import took 0.012699 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Rectangle Progress Bar.png
-  artifactKey: Guid(06e3d25b5cb2418409a5a6036e2d3ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Rectangle Progress Bar.png using Guid(06e3d25b5cb2418409a5a6036e2d3ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a75d1bb8bc53a460ae3d82872d78c5') in 0.014843 seconds 
-  Import took 0.021235 seconds .
+  Time since last request: 0.002134 seconds.
+  path: Assets/Scripts/FoodSpawnArea.cs
+  artifactKey: Guid(01c274252df110d40901c1c4a28441d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FoodSpawnArea.cs using Guid(01c274252df110d40901c1c4a28441d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd90ade60b2fc4701ed4157b9d85b91d') in 0.004470 seconds
+  Import took 0.010062 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2058.
+Total: 2.098500 ms (FindLiveObjects: 0.254800 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.741400 ms  DeleteObjects: 0.031300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2060.
+Total: 1.886500 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.063800 ms MarkObjects: 1.579300 ms  DeleteObjects: 0.021700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/50c.png
-  artifactKey: Guid(40393ec16c78d5b4eb5dcb45abce055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/50c.png using Guid(40393ec16c78d5b4eb5dcb45abce055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ab1603c56c80feb6f8f15783e4e3a8') in 0.015707 seconds 
-  Import took 0.022007 seconds .
+  Time since last request: 71.543121 seconds.
+  path: Assets/Scripts/Shield.cs
+  artifactKey: Guid(f6b54be37c23dfd4ea4fc99973a2b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Shield.cs using Guid(f6b54be37c23dfd4ea4fc99973a2b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c61d82ac4b02106f035c40fd0a0144') in 0.012772 seconds
+  Import took 0.016948 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/1000.png
-  artifactKey: Guid(dbec6e4932e93d74fab6c3893ca94e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/1000.png using Guid(dbec6e4932e93d74fab6c3893ca94e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a765218b0c5976accf444bbc9ee665c1') in 0.014839 seconds 
-  Import took 0.021658 seconds .
+  Time since last request: 0.009527 seconds.
+  path: Assets/Scripts/Shield.cs
+  artifactKey: Guid(f6b54be37c23dfd4ea4fc99973a2b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Shield.cs using Guid(f6b54be37c23dfd4ea4fc99973a2b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c61d82ac4b02106f035c40fd0a0144') in 0.003578 seconds
+  Import took 0.006854 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/2.png
-  artifactKey: Guid(5cb029aab0fa27144a51693e87da6a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/2.png using Guid(5cb029aab0fa27144a51693e87da6a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53949b662a5e080452a6e51ca95dcae5') in 0.031480 seconds 
-  Import took 0.037815 seconds .
+  Time since last request: 1.602556 seconds.
+  path: Assets/Scripts/GiveCashOverTime.cs
+  artifactKey: Guid(05f536b8639821d45ad23656bd9cca0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GiveCashOverTime.cs using Guid(05f536b8639821d45ad23656bd9cca0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79922f82c5023e7340a6bbae46f95ee8') in 0.011200 seconds
+  Import took 0.015588 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/AWESOME___.png
-  artifactKey: Guid(c157698b216a05048b989abfe25abae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/AWESOME___.png using Guid(c157698b216a05048b989abfe25abae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a21c121f725dee2bb6ebc085c20742') in 0.016697 seconds 
-  Import took 0.023561 seconds .
+  Time since last request: 0.428561 seconds.
+  path: Assets/Scripts/Garbage.cs
+  artifactKey: Guid(7326dd5d1e0dfa14c895d012855b0b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Garbage.cs using Guid(7326dd5d1e0dfa14c895d012855b0b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d89452556d625773162426fc2ab742') in 0.009933 seconds
+  Import took 0.013764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background tuto.png
-  artifactKey: Guid(c97273a5e6cc0f245afcbf0afed64adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background tuto.png using Guid(c97273a5e6cc0f245afcbf0afed64adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78d4d879deea3efa70a9e7c1f308df0') in 0.015634 seconds 
-  Import took 0.023410 seconds .
+  Time since last request: 0.553145 seconds.
+  path: Assets/Scripts/GameVars.cs
+  artifactKey: Guid(f788b3e4c0827244888a7e150591e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameVars.cs using Guid(f788b3e4c0827244888a7e150591e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec135d1fc06341b61d293330b623334') in 0.010706 seconds
+  Import took 0.014548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Green.png
-  artifactKey: Guid(b68c26fc83e8ac643965410660e70bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Green.png using Guid(b68c26fc83e8ac643965410660e70bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e6daa8ffdef53cc5bcf17106c2c46f') in 0.013618 seconds 
-  Import took 0.020989 seconds .
+  Time since last request: 0.003053 seconds.
+  path: Assets/Scripts/GameVars.cs
+  artifactKey: Guid(f788b3e4c0827244888a7e150591e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameVars.cs using Guid(f788b3e4c0827244888a7e150591e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec135d1fc06341b61d293330b623334') in 0.007314 seconds
+  Import took 0.011906 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Blue.png
-  artifactKey: Guid(d222cb0073af0314c94f0b969989936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Blue.png using Guid(d222cb0073af0314c94f0b969989936d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d0d276dd0b002be5cde9b6d08318d8') in 0.014017 seconds 
-  Import took 0.020558 seconds .
+  Time since last request: 231.287854 seconds.
+  path: Assets/Scripts/FoodCollector.cs
+  artifactKey: Guid(6b586005fe3e3cc42a00fc5cd1142cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FoodCollector.cs using Guid(6b586005fe3e3cc42a00fc5cd1142cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb4c1c6af05766ac9e4a8e5c27515ff') in 0.009110 seconds
+  Import took 0.014637 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Green Elipse.png
-  artifactKey: Guid(cbb0c27d248af5a459f0833598c240e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Green Elipse.png using Guid(cbb0c27d248af5a459f0833598c240e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965cddd82a7a94d9795fc78119c09e04') in 0.014281 seconds 
-  Import took 0.055366 seconds .
+  Time since last request: 0.001085 seconds.
+  path: Assets/Scripts/FoodCollector.cs
+  artifactKey: Guid(6b586005fe3e3cc42a00fc5cd1142cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FoodCollector.cs using Guid(6b586005fe3e3cc42a00fc5cd1142cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb4c1c6af05766ac9e4a8e5c27515ff') in 0.003255 seconds
+  Import took 0.006273 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007650 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 1.728500 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.064500 ms MarkObjects: 1.441700 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2063.
+Total: 1.853600 ms (FindLiveObjects: 0.259500 ms CreateObjectMapping: 0.087600 ms MarkObjects: 1.478300 ms  DeleteObjects: 0.026600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 2.080900 ms (FindLiveObjects: 0.226000 ms CreateObjectMapping: 0.060700 ms MarkObjects: 1.768600 ms  DeleteObjects: 0.024000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2067.
+Total: 2.594400 ms (FindLiveObjects: 0.189400 ms CreateObjectMapping: 0.063400 ms MarkObjects: 2.312900 ms  DeleteObjects: 0.026800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006344 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2069.
+Total: 2.214600 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.114200 ms MarkObjects: 1.742000 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 1.765800 ms (FindLiveObjects: 0.183200 ms CreateObjectMapping: 0.053300 ms MarkObjects: 1.507200 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006076 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2073.
+Total: 1.947200 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.062400 ms MarkObjects: 1.672800 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2075.
+Total: 1.932400 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.058100 ms MarkObjects: 1.622300 ms  DeleteObjects: 0.018700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 2.434600 ms (FindLiveObjects: 0.539400 ms CreateObjectMapping: 0.156100 ms MarkObjects: 1.713400 ms  DeleteObjects: 0.024000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/50.png
-  artifactKey: Guid(d1c90863f2951c648a3b01f1be93faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/50.png using Guid(d1c90863f2951c648a3b01f1be93faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed3545bad05f0dc4cfe737dae55fa60') in 0.043209 seconds 
-  Import took 0.067570 seconds .
+  Time since last request: 1290.654530 seconds.
+  path: Assets/GameObjects
+  artifactKey: Guid(9d9efa0940c13c8429bbeb8864798f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects using Guid(9d9efa0940c13c8429bbeb8864798f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f90cfb4c35e299635a50ea5a47f515') in 0.011509 seconds
+  Import took 0.016333 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/20.png
-  artifactKey: Guid(f6f35c12c7fe4f449849151e0b35519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/20.png using Guid(f6f35c12c7fe4f449849151e0b35519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111492b577975c2fad065777410168d8') in 0.036223 seconds 
-  Import took 0.046697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Progress Bar in game.png
-  artifactKey: Guid(7cc3b324388be164a80befd8ea03dcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Progress Bar in game.png using Guid(7cc3b324388be164a80befd8ea03dcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae3a3bce537e04eca65f17b38c15114') in 0.020476 seconds 
-  Import took 0.026783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Button Pub Continue.png
-  artifactKey: Guid(345443d073f40e04ebeb130c2db0ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Button Pub Continue.png using Guid(345443d073f40e04ebeb130c2db0ab0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98da7b33ff79f92ac96eed7af0c73168') in 0.024313 seconds 
-  Import took 0.032583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Blue Elipse.png
-  artifactKey: Guid(4c34247c750b47a4dad1638f382c2d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Blue Elipse.png using Guid(4c34247c750b47a4dad1638f382c2d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4e8b87efd4caa2a72f6bce8b7102c2') in 0.014914 seconds 
-  Import took 0.022601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Blue.png
-  artifactKey: Guid(41880fd2bb4da0d4f84489d79230c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Blue.png using Guid(41880fd2bb4da0d4f84489d79230c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bc7c4c0e25a7a9321562b7e8632d30') in 0.018989 seconds 
-  Import took 0.026239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Curseur.png
-  artifactKey: Guid(50cb2a82c80f3cc4793b28d88742f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Curseur.png using Guid(50cb2a82c80f3cc4793b28d88742f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c980f49a53c18c97d1e2ef4d04dde8f1') in 0.018808 seconds 
-  Import took 0.025250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100c.png
-  artifactKey: Guid(bafdcfb8288258542bb1c6643e182b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100c.png using Guid(bafdcfb8288258542bb1c6643e182b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a307b8a89b2918e95c01638976c4ae') in 0.079203 seconds 
-  Import took 0.085027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar purple.png
-  artifactKey: Guid(5187d864f570451478bee308838629d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar purple.png using Guid(5187d864f570451478bee308838629d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadc1d0b93615cc5970bdec849910d32') in 0.020794 seconds 
-  Import took 0.026744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100.png
-  artifactKey: Guid(d4d140ea59904d14d89031979967f620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100.png using Guid(d4d140ea59904d14d89031979967f620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1fd9cb7264b51d254cbe5d6e30abc0') in 0.022594 seconds 
-  Import took 0.030135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game yellow.png
-  artifactKey: Guid(9320dce57bba0e346afa7da9d1a62ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game yellow.png using Guid(9320dce57bba0e346afa7da9d1a62ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c19aa6720d52770d6636344b92e3c79') in 0.023808 seconds 
-  Import took 0.031073 seconds .
+  Time since last request: 0.043292 seconds.
+  path: Assets/GameObjects/Cell.prefab
+  artifactKey: Guid(a7f593ed79d573d4b88c05c87f7e28ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/Cell.prefab using Guid(a7f593ed79d573d4b88c05c87f7e28ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d1610d352ddc3b98d201d8c22b18bf') in 0.143514 seconds
+  Import took 0.147696 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000279 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline.png
-  artifactKey: Guid(d438d7dfdc9501b4db48485eba0a4ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline.png using Guid(d438d7dfdc9501b4db48485eba0a4ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1189a8677423fc6c331d6c96dde0fe74') in 0.015666 seconds 
-  Import took 0.023360 seconds .
+  path: Assets/GameObjects/Destroyer.prefab
+  artifactKey: Guid(a7c82e09b872db3459c8cdc24ac193f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/Destroyer.prefab using Guid(a7c82e09b872db3459c8cdc24ac193f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616f5c9f2a771cf42ed95d373885e67a') in 0.011325 seconds
+  Import took 0.015036 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Case level.png
-  artifactKey: Guid(01399e0f1436ec846a1a6b24089a769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Case level.png using Guid(01399e0f1436ec846a1a6b24089a769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdffa1ebf0078a8eba0287878377a29c') in 0.041723 seconds 
-  Import took 0.052987 seconds .
+  Time since last request: 0.000492 seconds.
+  path: Assets/GameObjects/FoodSpawner.prefab
+  artifactKey: Guid(f319109f285a49f4a8713a7f9bafb11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/FoodSpawner.prefab using Guid(f319109f285a49f4a8713a7f9bafb11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8d3b01ca20d9d9ca47f8af83d7ff6a') in 0.077971 seconds
+  Import took 0.082333 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/KILL.png
-  artifactKey: Guid(c2f11bc07539c924aa219322ee34739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/KILL.png using Guid(c2f11bc07539c924aa219322ee34739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa0ad332070023f649f64617722c959') in 0.030690 seconds 
-  Import took 0.042234 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/GameObjects/Glucose.prefab
+  artifactKey: Guid(494746c43fd504342b59f5ed3c5dd02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/Glucose.prefab using Guid(494746c43fd504342b59f5ed3c5dd02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68160de88050377a3d2e8db714a41a01') in 0.039971 seconds
+  Import took 0.043435 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/NO THANKS.png
-  artifactKey: Guid(bdc2f989e2fb20e4f918f8650a2d116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/NO THANKS.png using Guid(bdc2f989e2fb20e4f918f8650a2d116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5103f164b4696f989045e8eb5e619413') in 0.025943 seconds 
-  Import took 0.032941 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/GameObjects/Virus-1.prefab
+  artifactKey: Guid(bd40b8b695995874fad2636afc1b904d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/Virus-1.prefab using Guid(bd40b8b695995874fad2636afc1b904d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589d9dc77d8e9029aa13956542e91946') in 0.037635 seconds
+  Import took 0.042299 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/5.png
-  artifactKey: Guid(1d3a21db78f1bb346a288ec1cc48aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/5.png using Guid(1d3a21db78f1bb346a288ec1cc48aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa7b80d0a4ffce06f36c3e2f49e7cc2') in 0.020752 seconds 
-  Import took 0.027466 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/GameObjects/Virus-3.prefab
+  artifactKey: Guid(902af7443f72a28429626261f80506a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/Virus-3.prefab using Guid(902af7443f72a28429626261f80506a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35725e5394d3c4d1aea493566901d5be') in 0.051238 seconds
+  Import took 0.054422 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Green.png
-  artifactKey: Guid(c266f27f9276f474d8b03b03b765a342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Green.png using Guid(c266f27f9276f474d8b03b03b765a342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1b610e7fb46fab5343295cdf642df4') in 0.019166 seconds 
-  Import took 0.040772 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/GameObjects/WhiteCellSpawn.prefab
+  artifactKey: Guid(938c054bde9829b46b48fc422065621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/WhiteCellSpawn.prefab using Guid(938c054bde9829b46b48fc422065621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b2fbd15270b5280934523af652e831') in 0.025664 seconds
+  Import took 0.029256 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Yellow.png
-  artifactKey: Guid(c18e14cdafadc574c8b33cbd5f62c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Yellow.png using Guid(c18e14cdafadc574c8b33cbd5f62c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85510f1a8cbae6c1c69f7a9a9483f6b') in 0.021403 seconds 
-  Import took 0.053884 seconds .
+  Time since last request: 0.000315 seconds.
+  path: Assets/GameObjects/Virus-2.prefab
+  artifactKey: Guid(1e5776c15a56a5144b52c5599a022f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/Virus-2.prefab using Guid(1e5776c15a56a5144b52c5599a022f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff658fc7c00e8764505b4610f1a6f40b') in 0.036577 seconds
+  Import took 0.040709 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Yellow.png
-  artifactKey: Guid(9278c45dc5427aa4d91a1f94680cf28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Yellow.png using Guid(9278c45dc5427aa4d91a1f94680cf28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec4b5aaeadde40fb747e2eb288a9aee') in 0.019377 seconds 
-  Import took 0.041330 seconds .
+  Time since last request: 0.000775 seconds.
+  path: Assets/GameObjects/FoodAudioSource.prefab
+  artifactKey: Guid(f97db0b0c60d69240aad8ade45bdd39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/FoodAudioSource.prefab using Guid(f97db0b0c60d69240aad8ade45bdd39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef89e570248e86a395e3827eca03334d') in 0.010107 seconds
+  Import took 0.013851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Purple.png
-  artifactKey: Guid(dbd33ed892b519346bbad571347c67d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Purple.png using Guid(dbd33ed892b519346bbad571347c67d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b05b62f80d497b31fdb08c268ae231a') in 0.020136 seconds 
-  Import took 0.026080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/TRY AGAIN.png
-  artifactKey: Guid(4f14613cb7f26c245baf3b75d32472f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/TRY AGAIN.png using Guid(4f14613cb7f26c245baf3b75d32472f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b264afc116bc5ae7c1bff0f7e6e4f9c9') in 0.023825 seconds 
-  Import took 0.031132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Blue.png
-  artifactKey: Guid(829212c20ba2ea642ac6037415712f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Blue.png using Guid(829212c20ba2ea642ac6037415712f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df4ad51ae9ebc03f4e8a0012e26ee54') in 0.018934 seconds 
-  Import took 0.034731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tap to continue.png
-  artifactKey: Guid(039761932fc40f146becf27c83435363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tap to continue.png using Guid(039761932fc40f146becf27c83435363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060b412e28e30254ac7144e2c6afd8df') in 0.024313 seconds 
-  Import took 0.043375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/success.png
-  artifactKey: Guid(5d79e8c081b45594d896d6b21816ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/success.png using Guid(5d79e8c081b45594d896d6b21816ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35ce049fe23fde05a4faf7b19c770ad') in 0.019656 seconds 
-  Import took 0.026921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Triumph.png
-  artifactKey: Guid(81418388f10631744b54f5ac8f2eba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Triumph.png using Guid(81418388f10631744b54f5ac8f2eba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aff139aea211cb322c2b4229e133983') in 0.013802 seconds 
-  Import took 0.021776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tuto Ellipse.png
-  artifactKey: Guid(6e17e27cde593c245a8f34563057e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tuto Ellipse.png using Guid(6e17e27cde593c245a8f34563057e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa08e4c8878de974f201a466ee38faea') in 0.015526 seconds 
-  Import took 0.023365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.708310 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Waouh.png
-  artifactKey: Guid(8462306cddb06ae4da0a7e49e1486e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Waouh.png using Guid(8462306cddb06ae4da0a7e49e1486e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e2a546e5c0f58a84fbaa1c0a5bbd60') in 0.050881 seconds 
-  Import took 0.063264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Yellow Elipse.png
-  artifactKey: Guid(df8f599555ffb1d40aa27b16febf4390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Yellow Elipse.png using Guid(df8f599555ffb1d40aa27b16febf4390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f7be3532b31e06f2e636a3a74c332d') in 0.146551 seconds 
-  Import took 0.159798 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007355 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
-Domain Reload Profiling:
-	ReloadAssembly (960ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (814ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (310ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.9 MB.
-System memory in use after: 172.1 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4695.
-Total: 3.780100 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.177200 ms MarkObjects: 2.886400 ms  DeleteObjects: 0.409500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012411 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.280 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2280ms)
-		BeginReloadAssembly (185ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (1984ms)
-			LoadAssemblies (167ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (721ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (743ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (209ms)
-				ProcessInitializeOnLoadAttributes (399ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.0 MB.
-System memory in use after: 172.2 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4697.
-Total: 8.933500 ms (FindLiveObjects: 0.780300 ms CreateObjectMapping: 0.428900 ms MarkObjects: 6.892800 ms  DeleteObjects: 0.828400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 825.541476 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Black Skull.png
-  artifactKey: Guid(d31fff224b1b8cf4ea1fbd0fd17b0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Black Skull.png using Guid(d31fff224b1b8cf4ea1fbd0fd17b0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59edb79c69f64c48bafc7132a9318005') in 0.183219 seconds 
-  Import took 0.217611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Skull.psd
-  artifactKey: Guid(1f3c6e33be3d219478299471f1e2bcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Skull.psd using Guid(1f3c6e33be3d219478299471f1e2bcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67122415c016c5c8fb0ca2ba1014dc7') in 0.069405 seconds 
-  Import took 0.090793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/White.png
-  artifactKey: Guid(5601d3acbc811c84bac0736c3985d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/White.png using Guid(5601d3acbc811c84bac0736c3985d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29abda161b1e57435839b3b9dd54e049') in 0.031027 seconds 
-  Import took 0.061863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Yellow.png
-  artifactKey: Guid(babddf3c554f1a441b96e3955a310cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Yellow.png using Guid(babddf3c554f1a441b96e3955a310cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51f7cb09ea66cbe03e710cb5bda979c') in 0.014891 seconds 
-  Import took 0.023722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Purple.png
-  artifactKey: Guid(b0f7868800e02f946aa82d0c32e61660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Purple.png using Guid(b0f7868800e02f946aa82d0c32e61660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e38a2a4375b55e52ced481122587c4') in 0.015612 seconds 
-  Import took 0.057681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Blue.png
-  artifactKey: Guid(70f0893cea1535941ab16483ddd2d6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Blue.png using Guid(70f0893cea1535941ab16483ddd2d6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144f8d8d43720c7be4271cd331b64a62') in 0.017678 seconds 
-  Import took 0.056032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Outline.png
-  artifactKey: Guid(8c3370c9c362824488f730d39f2ac504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Outline.png using Guid(8c3370c9c362824488f730d39f2ac504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050c562bfec3c79979e82dcae6c211e8') in 0.012398 seconds 
-  Import took 0.037645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Skull 2.png
-  artifactKey: Guid(4f6ab5e1344f5664f83aee751aa31a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Skull 2.png using Guid(4f6ab5e1344f5664f83aee751aa31a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896a69a33853c2bd35c7c0739b076e02') in 0.015187 seconds 
-  Import took 0.031529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Green.png
-  artifactKey: Guid(506dc8c9f03ff4f4da2c82767213f5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Green.png using Guid(506dc8c9f03ff4f4da2c82767213f5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716a02006410e7eec239a1d542ad9ca4') in 0.013759 seconds 
-  Import took 0.062165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 99.071560 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Firecracker.png
-  artifactKey: Guid(1dae82b2e4cc4224cb839f424d54dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Firecracker.png using Guid(1dae82b2e4cc4224cb839f424d54dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561afcb0c0362441baecaab8404f6229') in 0.118230 seconds 
-  Import took 0.140624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Firecracker.psd
-  artifactKey: Guid(680ed790c2e358e4ea4d8a235838c309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Firecracker.psd using Guid(680ed790c2e358e4ea4d8a235838c309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0ad5249a04c2f9c9064e9c20deb821') in 0.016457 seconds 
-  Import took 0.022434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/White.png
-  artifactKey: Guid(c8706896d5345004c8a497e2bccea764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/White.png using Guid(c8706896d5345004c8a497e2bccea764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02ff583df6927773dfbfbb5ee0dc27b') in 0.023560 seconds 
-  Import took 0.029298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Outline.png
-  artifactKey: Guid(62f6fe2681a17fc489935595a1170d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Outline.png using Guid(62f6fe2681a17fc489935595a1170d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4914e48155977d0eef525279882b7d99') in 0.016482 seconds 
-  Import took 0.043204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.936359 seconds.
-  path: Assets/Scripts/GameVars.cs
-  artifactKey: Guid(f788b3e4c0827244888a7e150591e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameVars.cs using Guid(f788b3e4c0827244888a7e150591e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de5f261e4b2d992e356a391591cb447') in 0.120650 seconds 
-  Import took 0.130609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.438669 seconds.
-  path: Assets/Scripts/FoodSpawnArea.cs
-  artifactKey: Guid(01c274252df110d40901c1c4a28441d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FoodSpawnArea.cs using Guid(01c274252df110d40901c1c4a28441d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecbab530ef1e019ff6598a291847dc3') in 0.004849 seconds 
-  Import took 0.118320 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012022 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.519 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2519ms)
-		BeginReloadAssembly (205ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (2201ms)
-			LoadAssemblies (181ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (833ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (824ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (219ms)
-				ProcessInitializeOnLoadAttributes (503ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.0 MB.
-System memory in use after: 172.2 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4700.
-Total: 8.993300 ms (FindLiveObjects: 0.561300 ms CreateObjectMapping: 0.476600 ms MarkObjects: 7.150400 ms  DeleteObjects: 0.803000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005722 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  1.531 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1532ms)
-		BeginReloadAssembly (92ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1389ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (772ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (425ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.1 MB.
-System memory in use after: 172.3 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4702.
-Total: 7.929100 ms (FindLiveObjects: 0.522700 ms CreateObjectMapping: 0.421400 ms MarkObjects: 6.177400 ms  DeleteObjects: 0.806200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005268 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  1.084 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1085ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (334ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.1 MB.
-System memory in use after: 172.3 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4704.
-Total: 5.288900 ms (FindLiveObjects: 0.511200 ms CreateObjectMapping: 0.367100 ms MarkObjects: 3.947000 ms  DeleteObjects: 0.462100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022565 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.461 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2462ms)
-		BeginReloadAssembly (225ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (2111ms)
-			LoadAssemblies (205ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (739ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (833ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (232ms)
-				ProcessInitializeOnLoadAttributes (494ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.1 MB.
-System memory in use after: 172.3 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4706.
-Total: 10.058500 ms (FindLiveObjects: 0.732700 ms CreateObjectMapping: 0.523200 ms MarkObjects: 7.992100 ms  DeleteObjects: 0.808400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.066679 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  3.098 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3099ms)
-		BeginReloadAssembly (245ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (98ms)
-		EndReloadAssembly (2662ms)
-			LoadAssemblies (205ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1081ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (988ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (278ms)
-				ProcessInitializeOnLoadAttributes (577ms)
-				ProcessInitializeOnLoadMethodAttributes (114ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.1 MB.
-System memory in use after: 172.3 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4708.
-Total: 8.564600 ms (FindLiveObjects: 0.731200 ms CreateObjectMapping: 0.490300 ms MarkObjects: 6.345500 ms  DeleteObjects: 0.995300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 687.538145 seconds.
-  path: Assets/Scripts/WhiteCellStatusSet.cs
-  artifactKey: Guid(6142423852a6aad4783ed8c381560f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WhiteCellStatusSet.cs using Guid(6142423852a6aad4783ed8c381560f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0783518e2a8528259ddbb446cfd206') in 0.011660 seconds 
-  Import took 0.041365 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006234 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.498 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2498ms)
-		BeginReloadAssembly (225ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (2151ms)
-			LoadAssemblies (200ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (742ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (878ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (224ms)
-				ProcessInitializeOnLoadAttributes (548ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.1 MB.
-System memory in use after: 172.3 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4711.
-Total: 7.886100 ms (FindLiveObjects: 0.524800 ms CreateObjectMapping: 0.411100 ms MarkObjects: 6.163900 ms  DeleteObjects: 0.784200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 128.711323 seconds.
-  path: Assets/Scripts/WhiteCellStatusSet.cs
-  artifactKey: Guid(6142423852a6aad4783ed8c381560f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WhiteCellStatusSet.cs using Guid(6142423852a6aad4783ed8c381560f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66748f253ab20a8e46237367a2a866a8') in 0.010690 seconds 
-  Import took 0.096702 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.286701 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.713 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2714ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2512ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (2012ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (1703ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4713.
-Total: 11.232300 ms (FindLiveObjects: 4.423600 ms CreateObjectMapping: 0.537700 ms MarkObjects: 5.356200 ms  DeleteObjects: 0.911100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006433 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Domain Reload Profiling:
-	ReloadAssembly (974ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (831ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (290ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4715.
-Total: 7.811200 ms (FindLiveObjects: 0.481900 ms CreateObjectMapping: 0.481900 ms MarkObjects: 6.052600 ms  DeleteObjects: 0.793200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016667 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.220 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2220ms)
-		BeginReloadAssembly (207ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1895ms)
-			LoadAssemblies (178ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (671ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (737ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (219ms)
-				ProcessInitializeOnLoadAttributes (404ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4717.
-Total: 10.168900 ms (FindLiveObjects: 0.691300 ms CreateObjectMapping: 0.711700 ms MarkObjects: 7.692700 ms  DeleteObjects: 1.071000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014094 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.257 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2257ms)
-		BeginReloadAssembly (205ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1932ms)
-			LoadAssemblies (193ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (709ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (725ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (217ms)
-				ProcessInitializeOnLoadAttributes (403ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4719.
-Total: 7.902000 ms (FindLiveObjects: 0.524200 ms CreateObjectMapping: 0.425500 ms MarkObjects: 6.189200 ms  DeleteObjects: 0.761700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006378 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
-Domain Reload Profiling:
-	ReloadAssembly (952ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (801ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (294ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4721.
-Total: 4.098400 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.180800 ms MarkObjects: 3.180800 ms  DeleteObjects: 0.430400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013926 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.254 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2255ms)
-		BeginReloadAssembly (201ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1942ms)
-			LoadAssemblies (193ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (690ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (741ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (225ms)
-				ProcessInitializeOnLoadAttributes (405ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4723.
-Total: 7.796200 ms (FindLiveObjects: 0.502800 ms CreateObjectMapping: 0.407000 ms MarkObjects: 6.081000 ms  DeleteObjects: 0.804000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015171 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Mono: successfully reloaded assembly
-- Completed reload, in  2.243 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2244ms)
-		BeginReloadAssembly (235ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (1897ms)
-			LoadAssemblies (202ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (667ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (723ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (216ms)
-				ProcessInitializeOnLoadAttributes (402ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4725.
-Total: 7.888400 ms (FindLiveObjects: 0.559600 ms CreateObjectMapping: 0.460500 ms MarkObjects: 6.074800 ms  DeleteObjects: 0.791800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 736.803640 seconds.
+  Time since last request: 0.000408 seconds.
   path: Assets/GameObjects/WhiteCell.prefab
   artifactKey: Guid(ae243b146a6a3764da7751db9a90dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/WhiteCell.prefab using Guid(ae243b146a6a3764da7751db9a90dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3cda4d2f347cd759fe4aa1739371cb') in 0.315314 seconds 
-  Import took 0.382460 seconds .
+Start importing Assets/GameObjects/WhiteCell.prefab using Guid(ae243b146a6a3764da7751db9a90dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b341b9140c36f1783621b672c036708') in 0.023191 seconds
+  Import took 0.029329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/GameObjects/SelfDamage.prefab
+  artifactKey: Guid(701781216b76d1a4bb3219e7f12a9676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/SelfDamage.prefab using Guid(701781216b76d1a4bb3219e7f12a9676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84de715e0d9df00e496e039b8797609') in 0.027852 seconds
+  Import took 0.032095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/GameObjects/GoldNumber-food.prefab
+  artifactKey: Guid(8e9b31aa0d35d614f81b4b6e60979bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/GoldNumber-food.prefab using Guid(8e9b31aa0d35d614f81b4b6e60979bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33140d916f42ef1547f8608015a209b3') in 0.027460 seconds
+  Import took 0.030925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/GameObjects/DamageNumber.prefab
+  artifactKey: Guid(df5decca2c976f64688411a19e20f1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/DamageNumber.prefab using Guid(df5decca2c976f64688411a19e20f1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26cc889a04e52a81b18fae46ea60741') in 0.028380 seconds
+  Import took 0.032739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/GameObjects/GameController.prefab
+  artifactKey: Guid(e7d0bc435b27ba941b299dfd37203811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/GameController.prefab using Guid(e7d0bc435b27ba941b299dfd37203811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb4e6ebde6594a95eebebb15b203cad') in 0.043528 seconds
+  Import took 0.048107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.166897 seconds.
+  path: Assets/Scripts/WhiteCellAI.cs
+  artifactKey: Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WhiteCellAI.cs using Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac367e972872915337d32e093f1e722') in 0.025212 seconds
+  Import took 0.032619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.966049 seconds.
+  path: Assets/Scripts/WhiteCellAI.cs
+  artifactKey: Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WhiteCellAI.cs using Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5b28eced7d8d4b083966ee774e9fe0') in 0.006484 seconds
+  Import took 0.012917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.815378 seconds.
+  path: Assets/Scripts/WhiteCellAI.cs
+  artifactKey: Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WhiteCellAI.cs using Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85457c0307c2e3050c6ec820552c31cc') in 0.005255 seconds
+  Import took 0.010342 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014221 seconds.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Registered in 0.008452 seconds.
 Begin MonoManager ReloadAssembly
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
-ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.475 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2476ms)
-		BeginReloadAssembly (210ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (2150ms)
-			LoadAssemblies (185ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (921ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (730ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (224ms)
-				ProcessInitializeOnLoadAttributes (402ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+- Completed reload, in  0.836 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.3 MB.
-System memory in use after: 172.5 MB.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
 
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4731.
-Total: 7.440600 ms (FindLiveObjects: 0.479900 ms CreateObjectMapping: 0.373900 ms MarkObjects: 5.819500 ms  DeleteObjects: 0.766100 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2087.
+Total: 1.812000 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.091800 ms MarkObjects: 1.409300 ms  DeleteObjects: 0.030300 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.193195 seconds.
+  path: Assets/Scripts/WhiteCellAI.cs
+  artifactKey: Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WhiteCellAI.cs using Guid(d18185a5731ff4f4bbdd2783225e04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e677e3554d5cc1a31e363165fc955fbe') in 0.007927 seconds
+  Import took 0.011808 seconds .
+

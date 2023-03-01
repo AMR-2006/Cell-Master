@@ -5,9 +5,8 @@ using UnityEngine;
 
 public class WhiteCellStatusSet : MonoBehaviour
 {
-    private void Start()
+    private void Update()
     {
         this.gameObject.GetComponent<NavMeshAgent2D>().speed = GameVars.whiteCellSpeed;
-        this.GetComponent<WhiteCellAI>().number_of_targets = GameVars.numberOfTargets;
     }
 }
