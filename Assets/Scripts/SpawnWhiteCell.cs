@@ -29,20 +29,13 @@ public class SpawnWhiteCell : MonoBehaviour
             spawnobject.transform.position = mousePosition;
         }
 
-        if(Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") && !isSpawn && isSelected)
         {
             Text.SetActive(false);
             GameVars.Coin -= 200;
             isSpawn = true;
             isSelected = false;
             Instantiate(WhiteCell, mousePosition, Quaternion.identity);
-            spawnobject.SetActive(false);
-        }
-        if(Input.GetMouseButtonDown(1))
-        {
-            Text.SetActive(false);
-            isSpawn = true;
-            isSelected = false;
             spawnobject.SetActive(false);
         }
     }
