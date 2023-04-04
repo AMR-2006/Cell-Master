@@ -15,11 +15,11 @@ E:/unity-pro/Cell-Master
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64200
+64650
 Successfully changed project path to: E:/unity-pro/Cell-Master
 E:/unity-pro/Cell-Master
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 114.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path E:/Unity 2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'E:/Unity 2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity 2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity 2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity 2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001189 seconds.
+Registered in 0.000950 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.707 seconds
+- Completed reload, in  0.699 seconds
 Domain Reload Profiling:
-	ReloadAssembly (708ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (700ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (571ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (247ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (253ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005553 seconds.
+Registered in 0.006150 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.312 seconds
+- Completed reload, in  1.462 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1313ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1463ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1084ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1230ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
+			SetupTypeCache (381ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (439ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (526ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2549 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.1 MB.
-System memory in use after: 126.2 MB.
+Unloading 2746 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2999.
-Total: 3.756500 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.079100 ms MarkObjects: 3.333200 ms  DeleteObjects: 0.078700 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 3.936900 ms (FindLiveObjects: 0.299800 ms CreateObjectMapping: 0.081100 ms MarkObjects: 3.459300 ms  DeleteObjects: 0.095200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,81 +131,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PSD/Virus-3.psd
-  artifactKey: Guid(e1fc935df1dd2c04fa8d9c68730224a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/Virus-3.psd using Guid(e1fc935df1dd2c04fa8d9c68730224a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fa78f1a27f966f7de2196d4d04f21c') in 0.215525 seconds 
-  Import took 0.236804 seconds .
+  path: Assets/AnatomicPack
+  artifactKey: Guid(5c389699774954cd38161f190d2c8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnatomicPack using Guid(5c389699774954cd38161f190d2c8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3202d90c691086848fcc278dbe1f850a') in 0.010057 seconds 
+  Import took 0.036164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/PSD/Background.psd
-  artifactKey: Guid(660e3ad6de7821540bce890d31153e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/Background.psd using Guid(660e3ad6de7821540bce890d31153e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480c405155c500f9a05e033150fefccb') in 0.078182 seconds 
-  Import took 0.114032 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Assets/AnatomicPack/03_DNA/Chromosome.fbx
+  artifactKey: Guid(558cc5c550021a44990b113d7f7f426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnatomicPack/03_DNA/Chromosome.fbx using Guid(558cc5c550021a44990b113d7f7f426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76408ace81baed24d3571e4938ec67d6') in 0.441369 seconds 
+  Import took 0.447066 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/PSD/Glucose.psd
-  artifactKey: Guid(3e8434768a02356459a56e5598c41809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/Glucose.psd using Guid(3e8434768a02356459a56e5598c41809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0af0afb5827c19c0e27a123a7c0482') in 0.074463 seconds 
-  Import took 0.099200 seconds .
+  Time since last request: 0.000196 seconds.
+  path: Assets/AnatomicPack/03_DNA/DNA_straight.fbx
+  artifactKey: Guid(41c6bcdc0e6120740951e05e444fe1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnatomicPack/03_DNA/DNA_straight.fbx using Guid(41c6bcdc0e6120740951e05e444fe1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846207d2441ca575435719c0092bcae1') in 0.361648 seconds 
+  Import took 0.366779 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/PSD/Virus-2.psd
-  artifactKey: Guid(bb2e582124182a548a458cf3e9acaf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/Virus-2.psd using Guid(bb2e582124182a548a458cf3e9acaf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7c15c051214562cbfa5d0d5133c522') in 0.044249 seconds 
-  Import took 0.049589 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/AnatomicPack/03_DNA/DNA_curve.fbx
+  artifactKey: Guid(1fa07c85b69cc9142803dd016e949adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnatomicPack/03_DNA/DNA_curve.fbx using Guid(1fa07c85b69cc9142803dd016e949adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f103d134f5003f018a765d3096824923') in 0.329326 seconds 
+  Import took 0.334892 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/PSD/WhiteCell.psd
-  artifactKey: Guid(df8365b0368647a4fb5c8ac9b63f398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/WhiteCell.psd using Guid(df8365b0368647a4fb5c8ac9b63f398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a560d0c69d777c465675839eab956d') in 0.019827 seconds 
-  Import took 0.048040 seconds .
+  Time since last request: 0.000456 seconds.
+  path: Assets/AnatomicPack/03_DNA/DNA_turn.fbx
+  artifactKey: Guid(77ff9ba2f0ba47d4c94a3da1333e06c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnatomicPack/03_DNA/DNA_turn.fbx using Guid(77ff9ba2f0ba47d4c94a3da1333e06c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed0b398ab2f25543f158a568fd31bb1') in 0.321779 seconds 
+  Import took 0.327443 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/PSD/Cursor.psd
-  artifactKey: Guid(61bc554b9d52a4740a0632698626a621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/Cursor.psd using Guid(61bc554b9d52a4740a0632698626a621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1436467ae021f73813b0d6257aa4512') in 0.054925 seconds 
-  Import took 0.091158 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/AnatomicPack/03_DNA
+  artifactKey: Guid(dd274076f4c6cb44fa6eb0f10498f27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnatomicPack/03_DNA using Guid(dd274076f4c6cb44fa6eb0f10498f27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efa47ec64d6ae761bf2251f4673db81') in 0.007964 seconds 
+  Import took 0.050684 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.440 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1441ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1226ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2685 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3276.
+Total: 4.396900 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.086400 ms MarkObjects: 3.868300 ms  DeleteObjects: 0.131300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 939.735797 seconds.
+  path: Assets/Magic Light Probes
+  artifactKey: Guid(4cae8e56a6e51c84b9f1011730117e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes using Guid(4cae8e56a6e51c84b9f1011730117e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac332d2ab765422bb0b2cbc03d3a8b46') in 0.013725 seconds 
+  Import took 0.043652 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/PSD/Cell.psd
-  artifactKey: Guid(e94e5a58f7237734781d4a9c93bae27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/Cell.psd using Guid(e94e5a58f7237734781d4a9c93bae27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bea91c76cfca3dd97c0d601cbda6681') in 0.074067 seconds 
-  Import took 0.089928 seconds .
+  Time since last request: 0.471421 seconds.
+  path: Assets/Magic Light Probes/Shaders
+  artifactKey: Guid(621deb0e730bc8948bf05efab9aa56b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/Shaders using Guid(621deb0e730bc8948bf05efab9aa56b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445a76b918f5bec7adbd704a93b1c8c8') in 0.007925 seconds 
+  Import took 0.030750 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/PSD/You died.psd
-  artifactKey: Guid(b0189be0b5febae498fefbc759171ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/You died.psd using Guid(b0189be0b5febae498fefbc759171ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2dd5b831de1f49ada7951f2b4d0938') in 0.130204 seconds 
-  Import took 0.144624 seconds .
+  Time since last request: 1.240453 seconds.
+  path: Assets/Magic Light Probes/MagicLightProbes.cs
+  artifactKey: Guid(cbabd9e75cbc8764da6c23d519076fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/MagicLightProbes.cs using Guid(cbabd9e75cbc8764da6c23d519076fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e393bb5a40997602823db3c67cd03bad') in 0.014833 seconds 
+  Import took 0.025680 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/PSD/Virus-1.psd
-  artifactKey: Guid(94609601367c7054daeffc6b20f0df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/Virus-1.psd using Guid(94609601367c7054daeffc6b20f0df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2505e76d9898063e7a4ea87ae303b2fd') in 0.089510 seconds 
-  Import took 0.104575 seconds .
+  Time since last request: 8.097753 seconds.
+  path: Assets/Magic Light Probes/Docs
+  artifactKey: Guid(39bee28865360004d9f7f8d829e4a710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/Docs using Guid(39bee28865360004d9f7f8d829e4a710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f37e6167e0f15108fbae70894f8062') in 0.010874 seconds 
+  Import took 0.063941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/PSD/Trash.psd
-  artifactKey: Guid(a07dd7a3df2ab684c8e8adb0831f6aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PSD/Trash.psd using Guid(a07dd7a3df2ab684c8e8adb0831f6aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a013454b046db5b8c83d50e3976bfd0') in 0.068074 seconds 
-  Import took 0.089574 seconds .
+  Time since last request: 0.599061 seconds.
+  path: Assets/Magic Light Probes/Docs/Magic Light Probes (MLP) (EN).pdf
+  artifactKey: Guid(f8acb147859d8034097e65f0bdb85958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/Docs/Magic Light Probes (MLP) (EN).pdf using Guid(f8acb147859d8034097e65f0bdb85958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b447fc6937e495219eaacc22da7119e3') in 0.039567 seconds 
+  Import took 0.045642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.525053 seconds.
+  path: Assets/Magic Light Probes/Extensions
+  artifactKey: Guid(da5c82b603786ea48968df829ffa27b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/Extensions using Guid(da5c82b603786ea48968df829ffa27b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42b68869e836ce787ab0525f0eca3b8') in 0.007670 seconds 
+  Import took 0.014508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.626832 seconds.
+  path: Assets/Magic Light Probes/Examples
+  artifactKey: Guid(3a5df5c4579e0a9478e9bc14f946319b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/Examples using Guid(3a5df5c4579e0a9478e9bc14f946319b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeff5b2b4243205eef632af18e360959') in 0.008264 seconds 
+  Import took 0.016019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050972 seconds.
+  path: Assets/Magic Light Probes/Examples/Example Terrain.asset
+  artifactKey: Guid(820e8660ad1b09740bf2ca26b5da0bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/Examples/Example Terrain.asset using Guid(820e8660ad1b09740bf2ca26b5da0bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c645484dddbfdd052abaca0d8f23958') in 0.080375 seconds 
+  Import took 0.085887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.024157 seconds.
+  path: Assets/Magic Light Probes/Examples/Quick Start.unity
+  artifactKey: Guid(f354fec7fbc06d94da3483d779591e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/Examples/Quick Start.unity using Guid(f354fec7fbc06d94da3483d779591e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c009c12be0bdb42ee3df0a18d9e6b5') in 0.008933 seconds 
+  Import took 0.035289 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
