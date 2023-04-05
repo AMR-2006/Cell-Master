@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,12 @@ public class Health : MonoBehaviour
 {
     private float waittime = GameVars.HealthWaitTime;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        GameVars.Health = GameVars.MaxHealth;
+    }
+
     void Start()
     {
         ManageHealth();

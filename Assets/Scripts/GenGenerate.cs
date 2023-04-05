@@ -54,6 +54,63 @@ public class GenGenerate : MonoBehaviour
             print(i);
             i++;
         }
+    }
 
+    public void ApplyGen()
+    {
+        if (digit[0] != 0)
+        {
+            if (digit[1] != 0)
+            {
+                int multiplier = Random.Range(0, digit[2]);
+                if (multiplier != 0)
+                {
+                    GameVars.MaxHealth = digit[0] * digit[1] * digit[2];
+                }
+                else
+                {
+                    GameVars.MaxHealth = digit[0] * digit[1];
+                }
+            }
+            else
+            {
+                int multiplier = Random.Range(0, digit[2]);
+                if (multiplier != 0)
+                {
+                    GameVars.MaxHealth = digit[0] * digit[1] * digit[2];
+                }
+                else
+                {
+                    GameVars.MaxHealth = digit[0];
+                }
+            }
+        }
+        else
+        {
+            if (digit[1] != 0)
+            {
+                int multiplier = Random.Range(0, digit[2]);
+                if (multiplier != 0)
+                {
+                    GameVars.MaxHealth = digit[1] * digit[2];
+                }
+                else
+                {
+                    GameVars.MaxHealth = digit[1];
+                }
+            }
+            else
+            {
+                int multiplier = Random.Range(0, digit[2]);
+                if (multiplier != 0)
+                {
+                    GameVars.MaxHealth = digit[0] * digit[2];
+                }
+                else
+                {
+                    GameVars.MaxHealth = digit[0];
+                }
+            }
+        }
     }
 }
