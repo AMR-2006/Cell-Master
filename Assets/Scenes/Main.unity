@@ -6710,6 +6710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cell
       objectReference: {fileID: 0}
+    - target: {fileID: 8515050256228928849, guid: a7f593ed79d573d4b88c05c87f7e28ad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8515050256228928863, guid: a7f593ed79d573d4b88c05c87f7e28ad,
         type: 3}
       propertyPath: m_RootOrder

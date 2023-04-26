@@ -21,6 +21,12 @@ public class SpawnWhiteCell : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetMouseButtonDown(1))
+        {
+            isSelected= false;
+            isSpawn= true;
+            spawnobject.SetActive(false);
+        }
         Vector3 mousePosition = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y,0);
         if (isSelected && !isSpawn)
         {
@@ -29,10 +35,10 @@ public class SpawnWhiteCell : MonoBehaviour
             spawnobject.transform.position = mousePosition;
         }
 
-        if (Input.GetKeyDown("space") && !isSpawn && isSelected)
+        if (Input.GetKeyDown("space") && !isSpawn && isSelected && GameVars.Coin >= GameVars.whiteCellCost)
         {
             Text.SetActive(false);
-            GameVars.Coin -= 200;
+            GameVars.Coin -= GameVars.whiteCellCost;
             isSpawn = true;
             isSelected = false;
             Instantiate(WhiteCell, mousePosition, Quaternion.identity);
