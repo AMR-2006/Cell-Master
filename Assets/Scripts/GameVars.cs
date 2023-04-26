@@ -17,7 +17,7 @@ public static class GameVars
     public static int Health = 100;
     public static int Hunger = 100;
     public static int POOP = 0;
-    public static int Coin = 200;
+    public static int Coin = 1000000;
     public static int MoreFood_Upgrade_State = 0;
     public static int MoreFoodCost = 100;
     public static GameObject Food;
@@ -34,5 +34,6 @@ public static class GameVars
     public static float overallPower = 0;
     public static int whiteCellCost = 50;
 
-    public static string VirusAName; 
+    public static string VirusAName;
+
 }

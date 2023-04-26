@@ -50,10 +50,6 @@ public class ButtonController : MonoBehaviour
             GameVars.Coin -= GameVars.MoreFoodCost;
             GameVars.FoodSpawnTime = GameVars.FoodSpawnTime/2;
             GameVars.MoreFoodCost += GameVars.MoreFoodCost;
-            if (GameVars.EnemySpawnTime > 0 && GameVars.EnemySpawnTime - 2 >= 0)
-            {
-                GameVars.EnemySpawnTime -= 2;
-            }
             GameVars.MoreFood_Upgrade_State += 1;
         }
     }

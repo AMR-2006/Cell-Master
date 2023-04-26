@@ -51,5 +51,13 @@ public class EnemySpawner : MonoBehaviour
             obj.SetActive(true);
         }
     }
+
+    public void SetEnemySpawnTime(float time)
+    {
+        if (Length < Enemy.Length)
+        {
+            GameVars.EnemySpawnTime -= time;
+        }
+    }
 }
  
