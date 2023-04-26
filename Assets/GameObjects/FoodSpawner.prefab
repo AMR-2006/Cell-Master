@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01c274252df110d40901c1c4a28441d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 5.6, y: 9.12, z: 1}
+  size: {x: 5.01, y: 8.23, z: 1}
   food: {fileID: 6106292298327290548, guid: 494746c43fd504342b59f5ed3c5dd02d, type: 3}

@@ -6,8 +6,8 @@
 
  public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] [Range(1,3)] private int Enemytype;
-    [SerializeField] [Range(1f, 10f)] private float maxThinkTime;
+    [SerializeField] [Range(1,5)] private int Enemytype;
+    [SerializeField] [Range(0f, 10f)] private float maxThinkTime;
 
     [Header("Fill if it is a type 3 virus ")] 
     [SerializeField] [Range(1, 10)] private int waitForRedTime;
@@ -40,6 +40,14 @@
         {
             setDistenationtype3();
             Invoke("Action_REDzone", 1f);
+        }
+        if (Enemytype == 4)
+        {
+            setDistenationtype4();
+        }
+        if (Enemytype == 5)
+        {
+            setDistenationtype5();
         }
         
     }
@@ -74,6 +82,26 @@
         randomeLocation = new Vector2(Random.Range(-9f, 9f),Random.Range(-4f, 4f));
         agent.SetDestination(randomeLocation);
         Invoke("setDistenationtype3",Random.Range(0,maxThinkTime));
+    }
+    private void setDistenationtype4()
+    {
+        GameObject target = null;
+        if (GameObject.FindWithTag("Food"))
+        {
+            target = GameObject.FindWithTag("Food");
+            agent.SetDestination(target.transform.position);
+        }
+        Invoke("setDistenationtype4",maxThinkTime);
+    }
+    private void setDistenationtype5()
+    {
+        GameObject target = null;
+        if (GameObject.FindWithTag("Food"))
+        {
+            target = GameObject.FindWithTag("Food");
+            agent.SetDestination(target.transform.position);
+        }
+        Invoke("setDistenationtype5",maxThinkTime);
     }
     
     private void Action_REDzone()

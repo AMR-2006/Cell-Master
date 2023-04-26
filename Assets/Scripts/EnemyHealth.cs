@@ -13,13 +13,9 @@ public class EnemyHealth : MonoBehaviour
     private Vector3 spawnpos;
     public DamageNumber damageNumber;
     public DamageNumber cellDamage;
+    public int GivenCoinOnDeath = 10;
 
     public bool haveTimeToClick = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Health = GameVars.EnemyMainHealth;
-    }
 
     // Update is called once per frame
     private void OnMouseDown()
@@ -38,7 +34,7 @@ public class EnemyHealth : MonoBehaviour
 
             if(Health <= 0)
             {
-                GameVars.Coin += 10;
+                GameVars.Coin += GivenCoinOnDeath;
                 playaudio();
                 Destroy(this.gameObject);
                 GameVars.EnemyHittingPlayer -= 1;

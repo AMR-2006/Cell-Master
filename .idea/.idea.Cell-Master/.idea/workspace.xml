@@ -3,15 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="c9945f41-22ee-499b-8b53-f1e82d088afd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cell-Master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cell-Master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnatomicPack/03_DNA/Materials/chromosome01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnatomicPack/03_DNA/Materials/chromosome01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnatomicPack/03_DNA/Materials/chromosome02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnatomicPack/03_DNA/Materials/chromosome02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnatomicPack/03_DNA/Materials/chromosome03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnatomicPack/03_DNA/Materials/chromosome03.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnatomicPack/03_DNA/Materials/chromosome04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnatomicPack/03_DNA/Materials/chromosome04.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gen Generate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gen Generate.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Cell.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/FoodSpawner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/FoodSpawner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/GameController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/GameController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObjects/Virus-3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObjects/Virus-3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main_Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main_Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameVars.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameVars.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenGenerate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenGenerate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +106,8 @@
       <workItem from="1676477215025" duration="6478000" />
       <workItem from="1677055459900" duration="2181000" />
       <workItem from="1677071341229" duration="994000" />
-      <workItem from="1680684644235" duration="2202000" />
+      <workItem from="1680684644235" duration="3385000" />
+      <workItem from="1682496373924" duration="7850000" />
     </task>
     <servers />
   </component>

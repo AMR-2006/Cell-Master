@@ -11,13 +11,6 @@ public class GenGenerate : MonoBehaviour
 
     public GameObject[] text;
     public int[] digit;
-
-    private void Start()
-    {
-        
-    }
-    
-
     public void DigitChange(int number)
     {
         if (digit[number-1] == 10)

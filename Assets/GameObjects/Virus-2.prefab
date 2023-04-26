@@ -99,11 +99,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81e61016b3732a45810ed43b3c79283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 0
+  Health: 75
   source: {fileID: 8891429106393218431, guid: f97db0b0c60d69240aad8ade45bdd39a, type: 3}
   clip: {fileID: 8300000, guid: 262aea71740cba9479e8ebe9ce720f54, type: 3}
-  damageNumber: {fileID: 1844883486413339892, guid: df5decca2c976f64688411a19e20f1ae, type: 3}
+  damageNumber: {fileID: 1844883486413339892, guid: df5decca2c976f64688411a19e20f1ae,
+    type: 3}
   cellDamage: {fileID: 0}
+  GivenCoinOnDeath: 10
   haveTimeToClick: 0
 --- !u!114 &5160872205910235637
 MonoBehaviour:
@@ -133,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad705bba33f3642f4bc26cd844e12c6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 7
   _angularSpeed: 120
   _acceleration: 8
   _stoppingDistance: 0
@@ -176,6 +178,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.17, y: 0}
+  m_Offset: {x: 0.05294124, y: 0}
   serializedVersion: 2
-  m_Radius: 2.0704277
+  m_Radius: 2.385584
