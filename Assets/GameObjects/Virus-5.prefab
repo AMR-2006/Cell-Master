@@ -120,7 +120,7 @@ MonoBehaviour:
   _acceleration: 8
   _stoppingDistance: 0
   _autoBraking: 1
-  _radius: 0.5
+  _radius: 5.02
   _quality: 0
   _priority: 50
   _autoRepath: 1
