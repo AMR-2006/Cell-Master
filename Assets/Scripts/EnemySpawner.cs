@@ -54,7 +54,7 @@ public class EnemySpawner : MonoBehaviour
 
     public void SetEnemySpawnTime(float time)
     {
-        if (Length < Enemy.Length)
+        if (Length < Enemy.Length && GameVars.EnemySpawnTime > 2)
         {
             GameVars.EnemySpawnTime -= time;
         }

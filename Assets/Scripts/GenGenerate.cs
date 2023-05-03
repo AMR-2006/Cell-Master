@@ -107,5 +107,9 @@ public class GenGenerate : MonoBehaviour
                 }
             }
         }
+        if(GameVars.MaxHealth < 10 && GameVars.MaxHealth >=0)
+        {
+            GameVars.MaxHealth = 50;
+        }
     }
 }

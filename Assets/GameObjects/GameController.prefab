@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 769016112}
   - component: {fileID: 769016114}
   - component: {fileID: 769016115}
+  - component: {fileID: 20064728}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -78,6 +79,8 @@ MonoBehaviour:
   - {fileID: 7335835967583117653, guid: bd40b8b695995874fad2636afc1b904d, type: 3}
   - {fileID: 7420988842209720057, guid: 1e5776c15a56a5144b52c5599a022f96, type: 3}
   - {fileID: 5896101347756438135, guid: 902af7443f72a28429626261f80506a6, type: 3}
+  - {fileID: 4722325038791136109, guid: 3befca36390a6a94fa0d5d1958a98339, type: 3}
+  - {fileID: 7556063731725543793, guid: c54b166eda914574bbf623f83d761ed0, type: 3}
 --- !u!82 &769016113
 AudioSource:
   m_ObjectHideFlags: 0
@@ -204,7 +207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   youdied: {fileID: 0}
-  source: {fileID: 769016113}
 --- !u!114 &769016115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerState: 1
   timerType: 0
-  startTime: 20
+  startTime: 60
   finishTime: 0
   timerSpeed: 1
   loop: 1
@@ -252,6 +254,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 7013001351910438226}
+        m_TargetAssemblyTypeName: EnemySpawner, Assembly-CSharp
+        m_MethodName: SetEnemySpawnTime
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   setZeroTimescale: 0
   textType: 0
   timerTextDefault: {fileID: 0}
@@ -269,7 +283,103 @@ MonoBehaviour:
     days: 0
   day: 0
   hour: 0
-  minute: 0
-  second: 20
+  minute: 1
+  second: 0
   millisecond: 0
-  formattedString: 00:20
+  formattedString: 01:00
+--- !u!82 &20064728
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756825671763111405}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1a0fa2da0efa14c408db26e6ce107384, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
