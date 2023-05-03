@@ -17,12 +17,12 @@ public static class GameVars
     public static int Health = 100;
     public static int Hunger = 100;
     public static int POOP = 0;
-    public static int Coin = 1000000;
+    public static int Coin = 0;
     public static int MoreFood_Upgrade_State = 0;
     public static int MoreFoodCost = 100;
     public static GameObject Food;
     public static float FoodSpawnTime = 12f;
-    public static float EnemySpawnTime = 10f;
+    public static float EnemySpawnTime = 6f;
     public static float EnemyMainHealth = 100f;
     public static bool isShieldEnable = false;
     

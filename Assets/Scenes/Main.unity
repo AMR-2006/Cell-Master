@@ -929,7 +929,7 @@ RectTransform:
   m_Children:
   - {fileID: 1563015917}
   m_Father: {fileID: 1107008717}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -1542,9 +1542,8 @@ RectTransform:
   m_Children:
   - {fileID: 618618797}
   - {fileID: 1916524085}
-  - {fileID: 1181392843}
   m_Father: {fileID: 1107008717}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -2866,6 +2865,7 @@ RectTransform:
   - {fileID: 1892056436}
   - {fileID: 1416621602}
   - {fileID: 1369146920}
+  - {fileID: 1181392843}
   - {fileID: 552272746}
   - {fileID: 1932149798}
   - {fileID: 405535815}
@@ -3193,6 +3193,8 @@ GameObject:
   - component: {fileID: 1181392843}
   - component: {fileID: 1181392845}
   - component: {fileID: 1181392844}
+  - component: {fileID: 1181392846}
+  - component: {fileID: 1181392847}
   m_Layer: 5
   m_Name: You Died
   m_TagString: Untagged
@@ -3211,12 +3213,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 552272746}
-  m_RootOrder: 2
+  m_Father: {fileID: 1107008717}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.000001, y: 115.00001}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 401}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1181392844
@@ -3257,6 +3259,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181392842}
   m_CullTransparentMesh: 1
+--- !u!114 &1181392846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181392842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1debce1cfcb2a4385f76cd6ca8f981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerState: 1
+  timerType: 0
+  startTime: 0
+  finishTime: 0
+  timerSpeed: 1
+  loop: 0
+  useSystemTime: 0
+  timeEvents: []
+  timesUpEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1181392847}
+        m_TargetAssemblyTypeName: TimeScale, Assembly-CSharp
+        m_MethodName: TimeScaleset
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Gen Generate
+          m_BoolArgument: 0
+        m_CallState: 2
+  setZeroTimescale: 0
+  textType: 0
+  timerTextDefault: {fileID: 0}
+  timerTextTMPUGUI: {fileID: 0}
+  displayOptions:
+    milliseconds: 1
+    seconds: 1
+    minutes: 1
+    hours: 1
+    days: 1
+  leadingZero:
+    seconds: 1
+    minutes: 1
+    hours: 0
+    days: 0
+  day: 0
+  hour: 0
+  minute: 0
+  second: 0
+  millisecond: 0
+  formattedString: 0:0:00:00.000
+--- !u!114 &1181392847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181392842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e372fbf583ad44a8473976d19cdd71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1188064285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5856,7 +5926,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1107008717}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6799,7 +6869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769016115, guid: e7d0bc435b27ba941b299dfd37203811, type: 3}
       propertyPath: timesUpEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_FloatArgument
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 769016115, guid: e7d0bc435b27ba941b299dfd37203811, type: 3}
       propertyPath: timesUpEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument

@@ -51,6 +51,8 @@ public class GenGenerate : MonoBehaviour
 
     public void ApplyGen()
     {
+
+        GameVars.EnemySpawnTime = digit[4]+1;
         if (digit[0] != 0)
         {
             if (digit[1] != 0)
@@ -58,23 +60,23 @@ public class GenGenerate : MonoBehaviour
                 int multiplier = Random.Range(0, digit[2]);
                 if (multiplier != 0)
                 {
-                    GameVars.MaxHealth = digit[0] * digit[1] * digit[2] + digit[3] + (digit[4]*2);
+                    GameVars.MaxHealth = digit[0] * digit[1] * digit[2] + digit[3];
                 }
                 else
                 {
-                    GameVars.MaxHealth = digit[0] * digit[1] + digit[3] + (digit[4]*2);
+                    GameVars.MaxHealth = digit[0] * digit[1] + digit[3];
                 }
             }
             else
             {
-                int multiplier = Random.Range(0, digit[2]) + digit[3] + (digit[4]*2);
+                int multiplier = Random.Range(0, digit[2]) + digit[3];
                 if (multiplier != 0)
                 {
-                    GameVars.MaxHealth = digit[0] * digit[1] * digit[2] + digit[3] + (digit[4]*2);
+                    GameVars.MaxHealth = digit[0] * digit[1] * digit[2] + digit[3];
                 }
                 else
                 {
-                    GameVars.MaxHealth = digit[0] + digit[3] + (digit[4]*2);
+                    GameVars.MaxHealth = digit[0] + digit[3];
                 }
             }
         }
@@ -82,26 +84,26 @@ public class GenGenerate : MonoBehaviour
         {
             if (digit[1] != 0)
             {
-                int multiplier = Random.Range(0, digit[2]) + digit[3] + (digit[4]*2);
+                int multiplier = Random.Range(0, digit[2]) + digit[3];
                 if (multiplier != 0)
                 {
-                    GameVars.MaxHealth = digit[1] * digit[2] + digit[3] + (digit[4]*2);
+                    GameVars.MaxHealth = digit[1] * digit[2] + digit[3];
                 }
                 else
                 {
-                    GameVars.MaxHealth = digit[1] + digit[3] + (digit[4]*2);
+                    GameVars.MaxHealth = digit[1] + digit[3];
                 }
             }
             else
             {
-                int multiplier = Random.Range(0, digit[2]) + digit[3] + (digit[4]*2);
+                int multiplier = Random.Range(0, digit[2]) + digit[3];
                 if (multiplier != 0)
                 {
-                    GameVars.MaxHealth = digit[0] * digit[2] + digit[3] + (digit[4]*2);
+                    GameVars.MaxHealth = digit[0] * digit[2] + digit[3];
                 }
                 else
                 {
-                    GameVars.MaxHealth = digit[0] + digit[3] + (digit[4]*2);
+                    GameVars.MaxHealth = digit[0] + digit[3];
                 }
             }
         }

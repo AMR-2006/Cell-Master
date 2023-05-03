@@ -120,7 +120,7 @@ MonoBehaviour:
   _acceleration: 8
   _stoppingDistance: 0
   _autoBraking: 1
-  _radius: 2.04
+  _radius: 0.5
   _quality: 4
   _priority: 50
   _autoRepath: 1
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81e61016b3732a45810ed43b3c79283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 300
+  Health: 400
   source: {fileID: 8891429106393218431, guid: f97db0b0c60d69240aad8ade45bdd39a, type: 3}
   clip: {fileID: 8300000, guid: 262aea71740cba9479e8ebe9ce720f54, type: 3}
   damageNumber: {fileID: 1844883486413339892, guid: df5decca2c976f64688411a19e20f1ae,

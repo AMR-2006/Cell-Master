@@ -1,4 +1,6 @@
-﻿namespace TurnTheGameOn.Timer
+﻿using System;
+
+namespace TurnTheGameOn.Timer
 {
     using UnityEngine;
     using UnityEngine.SceneManagement;
@@ -9,7 +11,7 @@
 
         public void LoadScene()
         {
-            SceneManager.LoadScene(sceneName);
+            SceneManager.LoadScene(sceneName,LoadSceneMode.Single);
         }
 
     }
