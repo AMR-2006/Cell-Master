@@ -99,21 +99,23 @@ public class ButtonController : MonoBehaviour
 
     public void Upgrage_WhiteCell_Speed()
     {
-        if (GameVars.Coin >= 50)
+        if (GameVars.Coin >= GameVars.WhiteCellSpeedCost)
         {
             GameVars.whiteCellSpeed += 1;
-            GameVars.whiteCellCost += 50;
-            GameVars.Coin -= 50;
+            GameVars.whiteCellCost += GameVars.WhiteCellSpeedCost;
+            GameVars.Coin -= GameVars.WhiteCellSpeedCost;
+            GameVars.WhiteCellSpeedCost += 20;
         }
     }
     
     public void Upgrage_WhiteCell_Targets()
     {
-        if (GameVars.Coin >= 50)
+        if (GameVars.Coin >= GameVars.WhiteCellTargetsCost)
         {
             GameVars.numberOfTargets += 1;
-            GameVars.whiteCellCost += 50;
-            GameVars.Coin -= 50;
+            GameVars.whiteCellCost += GameVars.WhiteCellTargetsCost;
+            GameVars.Coin -= GameVars.WhiteCellTargetsCost;
+            GameVars.WhiteCellTargetsCost += 20;
         }
     }
     

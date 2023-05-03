@@ -52,6 +52,7 @@ public class WhiteCellAI : MonoBehaviour
         if(number_of_targets == 0)
         {
             Destroy(this.gameObject);
+            GameVars.WhiteCellsCount--;
         }
     }
 }

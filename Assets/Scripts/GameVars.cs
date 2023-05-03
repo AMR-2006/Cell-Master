@@ -33,6 +33,9 @@ public static class GameVars
     public static int numberOfTargets = 2;
     public static float overallPower = 0;
     public static int whiteCellCost = 50;
+    public static int WhiteCellsCount = 0;
+    public static int WhiteCellSpeedCost = 20;
+    public static int WhiteCellTargetsCost = 20;
 
     public static string VirusAName;
 

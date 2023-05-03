@@ -26,6 +26,7 @@ public class SpawnWhiteCell : MonoBehaviour
             isSelected= false;
             isSpawn= true;
             spawnobject.SetActive(false);
+            Text.SetActive(false);
         }
         Vector3 mousePosition = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y,0);
         if (isSelected && !isSpawn)
@@ -35,7 +36,7 @@ public class SpawnWhiteCell : MonoBehaviour
             spawnobject.transform.position = mousePosition;
         }
 
-        if (Input.GetKeyDown("space") && !isSpawn && isSelected && GameVars.Coin >= GameVars.whiteCellCost)
+        if (Input.GetKeyDown("space") && !isSpawn && isSelected && GameVars.Coin >= GameVars.whiteCellCost && GameVars.WhiteCellsCount < 2)
         {
             Text.SetActive(false);
             GameVars.Coin -= GameVars.whiteCellCost;
@@ -43,6 +44,7 @@ public class SpawnWhiteCell : MonoBehaviour
             isSelected = false;
             Instantiate(WhiteCell, mousePosition, Quaternion.identity);
             spawnobject.SetActive(false);
+            GameVars.WhiteCellsCount++;
         }
     }
 

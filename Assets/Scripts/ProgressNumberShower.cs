@@ -46,7 +46,20 @@ public class ProgressNumberShower : MonoBehaviour
             text.text = GameVars.overallPower.ToString();
         if (textname == "WhiteCellCost")
             text.text = "White Cell " + GameVars.whiteCellCost.ToString() + "$";
-
-
+        if (textname == "SpeedCost")
+            text.text = GameVars.WhiteCellSpeedCost.ToString() + "$";
+        if (textname == "TargetCost")
+            text.text = GameVars.WhiteCellTargetsCost.ToString() + "$";
+        if (textname == "PressToSpawn")
+        {
+            if (GameVars.WhiteCellsCount < 2)
+            {
+                text.text = "Press Space To Spawn   " + GameVars.WhiteCellsCount.ToString() + "/2";
+            }
+            else
+            {
+                text.text = "Can Not Spawn More   " + GameVars.WhiteCellsCount.ToString() + "/2";
+            }
+        }
     }
 }
